@@ -1,0 +1,885 @@
+### YamlMime:ManagedReference
+items:
+- uid: ASE_Test_Project.MyWriteToUnitTests
+  commentId: T:ASE_Test_Project.MyWriteToUnitTests
+  id: MyWriteToUnitTests
+  parent: ASE_Test_Project
+  children:
+  - ASE_Test_Project.MyWriteToUnitTests.CheckParameters_ShouldNotThrow_WhenParameterIsValid
+  - ASE_Test_Project.MyWriteToUnitTests.CheckParameters_ShouldThrowCommandException_WhenParameterCountIsInvalid
+  - ASE_Test_Project.MyWriteToUnitTests.CheckParameters_ShouldThrowCommandException_WhenParameterIsWhitespace
+  - ASE_Test_Project.MyWriteToUnitTests.CheckParameters_ShouldThrowCommandException_WhenParameterListIsNull
+  - ASE_Test_Project.MyWriteToUnitTests.Constructor_ShouldInitialize_WhenParametersAreValid
+  - ASE_Test_Project.MyWriteToUnitTests.Execute_ShouldThrowRestrictionException_WhenTextExceedsLength
+  - ASE_Test_Project.MyWriteToUnitTests.Execute_ShouldThrowRestrictionException_WhenTextIsEmpty
+  - ASE_Test_Project.MyWriteToUnitTests.Execute_ShouldThrowRestrictionException_WhenTextIsNull
+  - ASE_Test_Project.MyWriteToUnitTests.Execute_ShouldThrowRestrictionException_WhenTextIsWhitespace
+  - ASE_Test_Project.MyWriteToUnitTests.TestInitialize
+  langs:
+  - csharp
+  - vb
+  name: MyWriteToUnitTests
+  nameWithType: MyWriteToUnitTests
+  fullName: ASE_Test_Project.MyWriteToUnitTests
+  type: Class
+  source:
+    remote:
+      path: ASE_Dinesh_Bahadur_Ayer_77356697/ASE_Test_Project/MyWriteToUnitTests.cs
+      branch: main
+      repo: https://github.com/ASE-Classroom/ase-demo-assignment-dinesh69012.git
+    id: MyWriteToUnitTests
+    path: ASE_Test_Project/MyWriteToUnitTests.cs
+    startLine: 15
+  assemblies:
+  - ASE_Test_Project
+  namespace: ASE_Test_Project
+  summary: >-
+    Provides a set of unit tests to validate the behavior of the <xref href="ASE_Dinesh_Bahadur_Ayer_77356697.MyApp.MyWriteTo" data-throw-if-not-resolved="false"></xref> command,
+
+    specifically focusing on text validation and parameter handling.
+  example: []
+  syntax:
+    content: >-
+      [TestClass]
+
+      public class MyWriteToUnitTests
+    content.vb: >-
+      <TestClass>
+
+      Public Class MyWriteToUnitTests
+  inheritance:
+  - System.Object
+  inheritedMembers:
+  - System.Object.Equals(System.Object)
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.GetHashCode
+  - System.Object.GetType
+  - System.Object.MemberwiseClone
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+  - System.Object.ToString
+  attributes:
+  - type: Microsoft.VisualStudio.TestTools.UnitTesting.TestClassAttribute
+    ctor: Microsoft.VisualStudio.TestTools.UnitTesting.TestClassAttribute.#ctor
+    arguments: []
+- uid: ASE_Test_Project.MyWriteToUnitTests.TestInitialize
+  commentId: M:ASE_Test_Project.MyWriteToUnitTests.TestInitialize
+  id: TestInitialize
+  parent: ASE_Test_Project.MyWriteToUnitTests
+  langs:
+  - csharp
+  - vb
+  name: TestInitialize()
+  nameWithType: MyWriteToUnitTests.TestInitialize()
+  fullName: ASE_Test_Project.MyWriteToUnitTests.TestInitialize()
+  type: Method
+  source:
+    remote:
+      path: ASE_Dinesh_Bahadur_Ayer_77356697/ASE_Test_Project/MyWriteToUnitTests.cs
+      branch: main
+      repo: https://github.com/ASE-Classroom/ase-demo-assignment-dinesh69012.git
+    id: TestInitialize
+    path: ASE_Test_Project/MyWriteToUnitTests.cs
+    startLine: 28
+  assemblies:
+  - ASE_Test_Project
+  namespace: ASE_Test_Project
+  summary: >-
+    Initializes a new instance of <xref href="Moq.Mock%601" data-throw-if-not-resolved="false"></xref> before each test,
+
+    ensuring a fresh mock state for all test scenarios.
+  example: []
+  syntax:
+    content: >-
+      [TestInitialize]
+
+      public void TestInitialize()
+    content.vb: >-
+      <TestInitialize>
+
+      Public Sub TestInitialize()
+  overload: ASE_Test_Project.MyWriteToUnitTests.TestInitialize*
+  attributes:
+  - type: Microsoft.VisualStudio.TestTools.UnitTesting.TestInitializeAttribute
+    ctor: Microsoft.VisualStudio.TestTools.UnitTesting.TestInitializeAttribute.#ctor
+    arguments: []
+- uid: ASE_Test_Project.MyWriteToUnitTests.Constructor_ShouldInitialize_WhenParametersAreValid
+  commentId: M:ASE_Test_Project.MyWriteToUnitTests.Constructor_ShouldInitialize_WhenParametersAreValid
+  id: Constructor_ShouldInitialize_WhenParametersAreValid
+  parent: ASE_Test_Project.MyWriteToUnitTests
+  langs:
+  - csharp
+  - vb
+  name: Constructor_ShouldInitialize_WhenParametersAreValid()
+  nameWithType: MyWriteToUnitTests.Constructor_ShouldInitialize_WhenParametersAreValid()
+  fullName: ASE_Test_Project.MyWriteToUnitTests.Constructor_ShouldInitialize_WhenParametersAreValid()
+  type: Method
+  source:
+    remote:
+      path: ASE_Dinesh_Bahadur_Ayer_77356697/ASE_Test_Project/MyWriteToUnitTests.cs
+      branch: main
+      repo: https://github.com/ASE-Classroom/ase-demo-assignment-dinesh69012.git
+    id: Constructor_ShouldInitialize_WhenParametersAreValid
+    path: ASE_Test_Project/MyWriteToUnitTests.cs
+    startLine: 39
+  assemblies:
+  - ASE_Test_Project
+  namespace: ASE_Test_Project
+  summary: >-
+    Ensures that the <xref href="ASE_Dinesh_Bahadur_Ayer_77356697.MyApp.MyWriteTo" data-throw-if-not-resolved="false"></xref> constructor successfully initializes
+
+    when provided valid text and a valid <xref href="BOOSE.Canvas" data-throw-if-not-resolved="false"></xref> object.
+  example: []
+  syntax:
+    content: >-
+      [TestMethod]
+
+      public void Constructor_ShouldInitialize_WhenParametersAreValid()
+    content.vb: >-
+      <TestMethod>
+
+      Public Sub Constructor_ShouldInitialize_WhenParametersAreValid()
+  overload: ASE_Test_Project.MyWriteToUnitTests.Constructor_ShouldInitialize_WhenParametersAreValid*
+  attributes:
+  - type: Microsoft.VisualStudio.TestTools.UnitTesting.TestMethodAttribute
+    ctor: Microsoft.VisualStudio.TestTools.UnitTesting.TestMethodAttribute.#ctor
+    arguments: []
+- uid: ASE_Test_Project.MyWriteToUnitTests.Execute_ShouldThrowRestrictionException_WhenTextIsNull
+  commentId: M:ASE_Test_Project.MyWriteToUnitTests.Execute_ShouldThrowRestrictionException_WhenTextIsNull
+  id: Execute_ShouldThrowRestrictionException_WhenTextIsNull
+  parent: ASE_Test_Project.MyWriteToUnitTests
+  langs:
+  - csharp
+  - vb
+  name: Execute_ShouldThrowRestrictionException_WhenTextIsNull()
+  nameWithType: MyWriteToUnitTests.Execute_ShouldThrowRestrictionException_WhenTextIsNull()
+  fullName: ASE_Test_Project.MyWriteToUnitTests.Execute_ShouldThrowRestrictionException_WhenTextIsNull()
+  type: Method
+  source:
+    remote:
+      path: ASE_Dinesh_Bahadur_Ayer_77356697/ASE_Test_Project/MyWriteToUnitTests.cs
+      branch: main
+      repo: https://github.com/ASE-Classroom/ase-demo-assignment-dinesh69012.git
+    id: Execute_ShouldThrowRestrictionException_WhenTextIsNull
+    path: ASE_Test_Project/MyWriteToUnitTests.cs
+    startLine: 53
+  assemblies:
+  - ASE_Test_Project
+  namespace: ASE_Test_Project
+  summary: >-
+    Verifies that <xref href="ASE_Dinesh_Bahadur_Ayer_77356697.MyApp.MyWriteTo.Execute" data-throw-if-not-resolved="false"></xref> throws a <xref href="BOOSE.RestrictionException" data-throw-if-not-resolved="false"></xref>
+
+    when the text passed to the constructor is null.
+  example: []
+  syntax:
+    content: >-
+      [TestMethod]
+
+      public void Execute_ShouldThrowRestrictionException_WhenTextIsNull()
+    content.vb: >-
+      <TestMethod>
+
+      Public Sub Execute_ShouldThrowRestrictionException_WhenTextIsNull()
+  overload: ASE_Test_Project.MyWriteToUnitTests.Execute_ShouldThrowRestrictionException_WhenTextIsNull*
+  attributes:
+  - type: Microsoft.VisualStudio.TestTools.UnitTesting.TestMethodAttribute
+    ctor: Microsoft.VisualStudio.TestTools.UnitTesting.TestMethodAttribute.#ctor
+    arguments: []
+- uid: ASE_Test_Project.MyWriteToUnitTests.Execute_ShouldThrowRestrictionException_WhenTextIsEmpty
+  commentId: M:ASE_Test_Project.MyWriteToUnitTests.Execute_ShouldThrowRestrictionException_WhenTextIsEmpty
+  id: Execute_ShouldThrowRestrictionException_WhenTextIsEmpty
+  parent: ASE_Test_Project.MyWriteToUnitTests
+  langs:
+  - csharp
+  - vb
+  name: Execute_ShouldThrowRestrictionException_WhenTextIsEmpty()
+  nameWithType: MyWriteToUnitTests.Execute_ShouldThrowRestrictionException_WhenTextIsEmpty()
+  fullName: ASE_Test_Project.MyWriteToUnitTests.Execute_ShouldThrowRestrictionException_WhenTextIsEmpty()
+  type: Method
+  source:
+    remote:
+      path: ASE_Dinesh_Bahadur_Ayer_77356697/ASE_Test_Project/MyWriteToUnitTests.cs
+      branch: main
+      repo: https://github.com/ASE-Classroom/ase-demo-assignment-dinesh69012.git
+    id: Execute_ShouldThrowRestrictionException_WhenTextIsEmpty
+    path: ASE_Test_Project/MyWriteToUnitTests.cs
+    startLine: 70
+  assemblies:
+  - ASE_Test_Project
+  namespace: ASE_Test_Project
+  summary: >-
+    Verifies that <xref href="ASE_Dinesh_Bahadur_Ayer_77356697.MyApp.MyWriteTo.Execute" data-throw-if-not-resolved="false"></xref> throws a <xref href="BOOSE.RestrictionException" data-throw-if-not-resolved="false"></xref>
+
+    when the text passed to the constructor is an empty string.
+  example: []
+  syntax:
+    content: >-
+      [TestMethod]
+
+      public void Execute_ShouldThrowRestrictionException_WhenTextIsEmpty()
+    content.vb: >-
+      <TestMethod>
+
+      Public Sub Execute_ShouldThrowRestrictionException_WhenTextIsEmpty()
+  overload: ASE_Test_Project.MyWriteToUnitTests.Execute_ShouldThrowRestrictionException_WhenTextIsEmpty*
+  attributes:
+  - type: Microsoft.VisualStudio.TestTools.UnitTesting.TestMethodAttribute
+    ctor: Microsoft.VisualStudio.TestTools.UnitTesting.TestMethodAttribute.#ctor
+    arguments: []
+- uid: ASE_Test_Project.MyWriteToUnitTests.Execute_ShouldThrowRestrictionException_WhenTextIsWhitespace
+  commentId: M:ASE_Test_Project.MyWriteToUnitTests.Execute_ShouldThrowRestrictionException_WhenTextIsWhitespace
+  id: Execute_ShouldThrowRestrictionException_WhenTextIsWhitespace
+  parent: ASE_Test_Project.MyWriteToUnitTests
+  langs:
+  - csharp
+  - vb
+  name: Execute_ShouldThrowRestrictionException_WhenTextIsWhitespace()
+  nameWithType: MyWriteToUnitTests.Execute_ShouldThrowRestrictionException_WhenTextIsWhitespace()
+  fullName: ASE_Test_Project.MyWriteToUnitTests.Execute_ShouldThrowRestrictionException_WhenTextIsWhitespace()
+  type: Method
+  source:
+    remote:
+      path: ASE_Dinesh_Bahadur_Ayer_77356697/ASE_Test_Project/MyWriteToUnitTests.cs
+      branch: main
+      repo: https://github.com/ASE-Classroom/ase-demo-assignment-dinesh69012.git
+    id: Execute_ShouldThrowRestrictionException_WhenTextIsWhitespace
+    path: ASE_Test_Project/MyWriteToUnitTests.cs
+    startLine: 87
+  assemblies:
+  - ASE_Test_Project
+  namespace: ASE_Test_Project
+  summary: >-
+    Verifies that <xref href="ASE_Dinesh_Bahadur_Ayer_77356697.MyApp.MyWriteTo.Execute" data-throw-if-not-resolved="false"></xref> throws a <xref href="BOOSE.RestrictionException" data-throw-if-not-resolved="false"></xref>
+
+    when the text passed to the constructor is whitespace only.
+  example: []
+  syntax:
+    content: >-
+      [TestMethod]
+
+      public void Execute_ShouldThrowRestrictionException_WhenTextIsWhitespace()
+    content.vb: >-
+      <TestMethod>
+
+      Public Sub Execute_ShouldThrowRestrictionException_WhenTextIsWhitespace()
+  overload: ASE_Test_Project.MyWriteToUnitTests.Execute_ShouldThrowRestrictionException_WhenTextIsWhitespace*
+  attributes:
+  - type: Microsoft.VisualStudio.TestTools.UnitTesting.TestMethodAttribute
+    ctor: Microsoft.VisualStudio.TestTools.UnitTesting.TestMethodAttribute.#ctor
+    arguments: []
+- uid: ASE_Test_Project.MyWriteToUnitTests.Execute_ShouldThrowRestrictionException_WhenTextExceedsLength
+  commentId: M:ASE_Test_Project.MyWriteToUnitTests.Execute_ShouldThrowRestrictionException_WhenTextExceedsLength
+  id: Execute_ShouldThrowRestrictionException_WhenTextExceedsLength
+  parent: ASE_Test_Project.MyWriteToUnitTests
+  langs:
+  - csharp
+  - vb
+  name: Execute_ShouldThrowRestrictionException_WhenTextExceedsLength()
+  nameWithType: MyWriteToUnitTests.Execute_ShouldThrowRestrictionException_WhenTextExceedsLength()
+  fullName: ASE_Test_Project.MyWriteToUnitTests.Execute_ShouldThrowRestrictionException_WhenTextExceedsLength()
+  type: Method
+  source:
+    remote:
+      path: ASE_Dinesh_Bahadur_Ayer_77356697/ASE_Test_Project/MyWriteToUnitTests.cs
+      branch: main
+      repo: https://github.com/ASE-Classroom/ase-demo-assignment-dinesh69012.git
+    id: Execute_ShouldThrowRestrictionException_WhenTextExceedsLength
+    path: ASE_Test_Project/MyWriteToUnitTests.cs
+    startLine: 104
+  assemblies:
+  - ASE_Test_Project
+  namespace: ASE_Test_Project
+  summary: >-
+    Verifies that <xref href="ASE_Dinesh_Bahadur_Ayer_77356697.MyApp.MyWriteTo.Execute" data-throw-if-not-resolved="false"></xref> throws a <xref href="BOOSE.RestrictionException" data-throw-if-not-resolved="false"></xref>
+
+    when the text exceeds the allowed maximum length (e.g., 100 characters).
+  example: []
+  syntax:
+    content: >-
+      [TestMethod]
+
+      public void Execute_ShouldThrowRestrictionException_WhenTextExceedsLength()
+    content.vb: >-
+      <TestMethod>
+
+      Public Sub Execute_ShouldThrowRestrictionException_WhenTextExceedsLength()
+  overload: ASE_Test_Project.MyWriteToUnitTests.Execute_ShouldThrowRestrictionException_WhenTextExceedsLength*
+  attributes:
+  - type: Microsoft.VisualStudio.TestTools.UnitTesting.TestMethodAttribute
+    ctor: Microsoft.VisualStudio.TestTools.UnitTesting.TestMethodAttribute.#ctor
+    arguments: []
+- uid: ASE_Test_Project.MyWriteToUnitTests.CheckParameters_ShouldThrowCommandException_WhenParameterListIsNull
+  commentId: M:ASE_Test_Project.MyWriteToUnitTests.CheckParameters_ShouldThrowCommandException_WhenParameterListIsNull
+  id: CheckParameters_ShouldThrowCommandException_WhenParameterListIsNull
+  parent: ASE_Test_Project.MyWriteToUnitTests
+  langs:
+  - csharp
+  - vb
+  name: CheckParameters_ShouldThrowCommandException_WhenParameterListIsNull()
+  nameWithType: MyWriteToUnitTests.CheckParameters_ShouldThrowCommandException_WhenParameterListIsNull()
+  fullName: ASE_Test_Project.MyWriteToUnitTests.CheckParameters_ShouldThrowCommandException_WhenParameterListIsNull()
+  type: Method
+  source:
+    remote:
+      path: ASE_Dinesh_Bahadur_Ayer_77356697/ASE_Test_Project/MyWriteToUnitTests.cs
+      branch: main
+      repo: https://github.com/ASE-Classroom/ase-demo-assignment-dinesh69012.git
+    id: CheckParameters_ShouldThrowCommandException_WhenParameterListIsNull
+    path: ASE_Test_Project/MyWriteToUnitTests.cs
+    startLine: 122
+  assemblies:
+  - ASE_Test_Project
+  namespace: ASE_Test_Project
+  summary: >-
+    Verifies that <xref href="ASE_Dinesh_Bahadur_Ayer_77356697.MyApp.MyWriteTo.CheckParameters(System.String%5b%5d)" data-throw-if-not-resolved="false"></xref> throws a <xref href="BOOSE.CommandException" data-throw-if-not-resolved="false"></xref>
+
+    when the parameter list is null.
+  example: []
+  syntax:
+    content: >-
+      [TestMethod]
+
+      public void CheckParameters_ShouldThrowCommandException_WhenParameterListIsNull()
+    content.vb: >-
+      <TestMethod>
+
+      Public Sub CheckParameters_ShouldThrowCommandException_WhenParameterListIsNull()
+  overload: ASE_Test_Project.MyWriteToUnitTests.CheckParameters_ShouldThrowCommandException_WhenParameterListIsNull*
+  attributes:
+  - type: Microsoft.VisualStudio.TestTools.UnitTesting.TestMethodAttribute
+    ctor: Microsoft.VisualStudio.TestTools.UnitTesting.TestMethodAttribute.#ctor
+    arguments: []
+- uid: ASE_Test_Project.MyWriteToUnitTests.CheckParameters_ShouldThrowCommandException_WhenParameterCountIsInvalid
+  commentId: M:ASE_Test_Project.MyWriteToUnitTests.CheckParameters_ShouldThrowCommandException_WhenParameterCountIsInvalid
+  id: CheckParameters_ShouldThrowCommandException_WhenParameterCountIsInvalid
+  parent: ASE_Test_Project.MyWriteToUnitTests
+  langs:
+  - csharp
+  - vb
+  name: CheckParameters_ShouldThrowCommandException_WhenParameterCountIsInvalid()
+  nameWithType: MyWriteToUnitTests.CheckParameters_ShouldThrowCommandException_WhenParameterCountIsInvalid()
+  fullName: ASE_Test_Project.MyWriteToUnitTests.CheckParameters_ShouldThrowCommandException_WhenParameterCountIsInvalid()
+  type: Method
+  source:
+    remote:
+      path: ASE_Dinesh_Bahadur_Ayer_77356697/ASE_Test_Project/MyWriteToUnitTests.cs
+      branch: main
+      repo: https://github.com/ASE-Classroom/ase-demo-assignment-dinesh69012.git
+    id: CheckParameters_ShouldThrowCommandException_WhenParameterCountIsInvalid
+    path: ASE_Test_Project/MyWriteToUnitTests.cs
+    startLine: 139
+  assemblies:
+  - ASE_Test_Project
+  namespace: ASE_Test_Project
+  summary: >-
+    Verifies that <xref href="ASE_Dinesh_Bahadur_Ayer_77356697.MyApp.MyWriteTo.CheckParameters(System.String%5b%5d)" data-throw-if-not-resolved="false"></xref> throws a <xref href="BOOSE.CommandException" data-throw-if-not-resolved="false"></xref>
+
+    when more than one parameter is provided, indicating an incorrect parameter count.
+  example: []
+  syntax:
+    content: >-
+      [TestMethod]
+
+      public void CheckParameters_ShouldThrowCommandException_WhenParameterCountIsInvalid()
+    content.vb: >-
+      <TestMethod>
+
+      Public Sub CheckParameters_ShouldThrowCommandException_WhenParameterCountIsInvalid()
+  overload: ASE_Test_Project.MyWriteToUnitTests.CheckParameters_ShouldThrowCommandException_WhenParameterCountIsInvalid*
+  attributes:
+  - type: Microsoft.VisualStudio.TestTools.UnitTesting.TestMethodAttribute
+    ctor: Microsoft.VisualStudio.TestTools.UnitTesting.TestMethodAttribute.#ctor
+    arguments: []
+- uid: ASE_Test_Project.MyWriteToUnitTests.CheckParameters_ShouldThrowCommandException_WhenParameterIsWhitespace
+  commentId: M:ASE_Test_Project.MyWriteToUnitTests.CheckParameters_ShouldThrowCommandException_WhenParameterIsWhitespace
+  id: CheckParameters_ShouldThrowCommandException_WhenParameterIsWhitespace
+  parent: ASE_Test_Project.MyWriteToUnitTests
+  langs:
+  - csharp
+  - vb
+  name: CheckParameters_ShouldThrowCommandException_WhenParameterIsWhitespace()
+  nameWithType: MyWriteToUnitTests.CheckParameters_ShouldThrowCommandException_WhenParameterIsWhitespace()
+  fullName: ASE_Test_Project.MyWriteToUnitTests.CheckParameters_ShouldThrowCommandException_WhenParameterIsWhitespace()
+  type: Method
+  source:
+    remote:
+      path: ASE_Dinesh_Bahadur_Ayer_77356697/ASE_Test_Project/MyWriteToUnitTests.cs
+      branch: main
+      repo: https://github.com/ASE-Classroom/ase-demo-assignment-dinesh69012.git
+    id: CheckParameters_ShouldThrowCommandException_WhenParameterIsWhitespace
+    path: ASE_Test_Project/MyWriteToUnitTests.cs
+    startLine: 156
+  assemblies:
+  - ASE_Test_Project
+  namespace: ASE_Test_Project
+  summary: >-
+    Verifies that <xref href="ASE_Dinesh_Bahadur_Ayer_77356697.MyApp.MyWriteTo.CheckParameters(System.String%5b%5d)" data-throw-if-not-resolved="false"></xref> throws a <xref href="BOOSE.CommandException" data-throw-if-not-resolved="false"></xref>
+
+    if the single parameter provided contains only whitespace.
+  example: []
+  syntax:
+    content: >-
+      [TestMethod]
+
+      public void CheckParameters_ShouldThrowCommandException_WhenParameterIsWhitespace()
+    content.vb: >-
+      <TestMethod>
+
+      Public Sub CheckParameters_ShouldThrowCommandException_WhenParameterIsWhitespace()
+  overload: ASE_Test_Project.MyWriteToUnitTests.CheckParameters_ShouldThrowCommandException_WhenParameterIsWhitespace*
+  attributes:
+  - type: Microsoft.VisualStudio.TestTools.UnitTesting.TestMethodAttribute
+    ctor: Microsoft.VisualStudio.TestTools.UnitTesting.TestMethodAttribute.#ctor
+    arguments: []
+- uid: ASE_Test_Project.MyWriteToUnitTests.CheckParameters_ShouldNotThrow_WhenParameterIsValid
+  commentId: M:ASE_Test_Project.MyWriteToUnitTests.CheckParameters_ShouldNotThrow_WhenParameterIsValid
+  id: CheckParameters_ShouldNotThrow_WhenParameterIsValid
+  parent: ASE_Test_Project.MyWriteToUnitTests
+  langs:
+  - csharp
+  - vb
+  name: CheckParameters_ShouldNotThrow_WhenParameterIsValid()
+  nameWithType: MyWriteToUnitTests.CheckParameters_ShouldNotThrow_WhenParameterIsValid()
+  fullName: ASE_Test_Project.MyWriteToUnitTests.CheckParameters_ShouldNotThrow_WhenParameterIsValid()
+  type: Method
+  source:
+    remote:
+      path: ASE_Dinesh_Bahadur_Ayer_77356697/ASE_Test_Project/MyWriteToUnitTests.cs
+      branch: main
+      repo: https://github.com/ASE-Classroom/ase-demo-assignment-dinesh69012.git
+    id: CheckParameters_ShouldNotThrow_WhenParameterIsValid
+    path: ASE_Test_Project/MyWriteToUnitTests.cs
+    startLine: 173
+  assemblies:
+  - ASE_Test_Project
+  namespace: ASE_Test_Project
+  summary: >-
+    Verifies that <xref href="ASE_Dinesh_Bahadur_Ayer_77356697.MyApp.MyWriteTo.CheckParameters(System.String%5b%5d)" data-throw-if-not-resolved="false"></xref> does not throw any exceptions
+
+    when exactly one valid parameter is provided.
+  example: []
+  syntax:
+    content: >-
+      [TestMethod]
+
+      public void CheckParameters_ShouldNotThrow_WhenParameterIsValid()
+    content.vb: >-
+      <TestMethod>
+
+      Public Sub CheckParameters_ShouldNotThrow_WhenParameterIsValid()
+  overload: ASE_Test_Project.MyWriteToUnitTests.CheckParameters_ShouldNotThrow_WhenParameterIsValid*
+  attributes:
+  - type: Microsoft.VisualStudio.TestTools.UnitTesting.TestMethodAttribute
+    ctor: Microsoft.VisualStudio.TestTools.UnitTesting.TestMethodAttribute.#ctor
+    arguments: []
+references:
+- uid: ASE_Dinesh_Bahadur_Ayer_77356697.MyApp.MyWriteTo
+  commentId: T:ASE_Dinesh_Bahadur_Ayer_77356697.MyApp.MyWriteTo
+  href: ASE_Dinesh_Bahadur_Ayer_77356697.MyApp.MyWriteTo.html
+  name: MyWriteTo
+  nameWithType: MyWriteTo
+  fullName: ASE_Dinesh_Bahadur_Ayer_77356697.MyApp.MyWriteTo
+- uid: ASE_Test_Project
+  commentId: N:ASE_Test_Project
+  href: ASE_Test_Project.html
+  name: ASE_Test_Project
+  nameWithType: ASE_Test_Project
+  fullName: ASE_Test_Project
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object
+  name: object
+  nameWithType: object
+  fullName: object
+  nameWithType.vb: Object
+  fullName.vb: Object
+  name.vb: Object
+- uid: System.Object.Equals(System.Object)
+  commentId: M:System.Object.Equals(System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  name: Equals(object)
+  nameWithType: object.Equals(object)
+  fullName: object.Equals(object)
+  nameWithType.vb: Object.Equals(Object)
+  fullName.vb: Object.Equals(Object)
+  name.vb: Equals(Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.Equals(System.Object,System.Object)
+  commentId: M:System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  name: Equals(object, object)
+  nameWithType: object.Equals(object, object)
+  fullName: object.Equals(object, object)
+  nameWithType.vb: Object.Equals(Object, Object)
+  fullName.vb: Object.Equals(Object, Object)
+  name.vb: Equals(Object, Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.GetHashCode
+  commentId: M:System.Object.GetHashCode
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  name: GetHashCode()
+  nameWithType: object.GetHashCode()
+  fullName: object.GetHashCode()
+  nameWithType.vb: Object.GetHashCode()
+  fullName.vb: Object.GetHashCode()
+  spec.csharp:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  - name: (
+  - name: )
+- uid: System.Object.GetType
+  commentId: M:System.Object.GetType
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  name: GetType()
+  nameWithType: object.GetType()
+  fullName: object.GetType()
+  nameWithType.vb: Object.GetType()
+  fullName.vb: Object.GetType()
+  spec.csharp:
+  - uid: System.Object.GetType
+    name: GetType
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.GetType
+    name: GetType
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  - name: (
+  - name: )
+- uid: System.Object.MemberwiseClone
+  commentId: M:System.Object.MemberwiseClone
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
+  name: MemberwiseClone()
+  nameWithType: object.MemberwiseClone()
+  fullName: object.MemberwiseClone()
+  nameWithType.vb: Object.MemberwiseClone()
+  fullName.vb: Object.MemberwiseClone()
+  spec.csharp:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
+  - name: (
+  - name: )
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  name: ReferenceEquals(object, object)
+  nameWithType: object.ReferenceEquals(object, object)
+  fullName: object.ReferenceEquals(object, object)
+  nameWithType.vb: Object.ReferenceEquals(Object, Object)
+  fullName.vb: Object.ReferenceEquals(Object, Object)
+  name.vb: ReferenceEquals(Object, Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.ToString
+  commentId: M:System.Object.ToString
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  name: ToString()
+  nameWithType: object.ToString()
+  fullName: object.ToString()
+  nameWithType.vb: Object.ToString()
+  fullName.vb: Object.ToString()
+  spec.csharp:
+  - uid: System.Object.ToString
+    name: ToString
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.ToString
+    name: ToString
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  - name: (
+  - name: )
+- uid: System
+  commentId: N:System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: Moq.Mock`1
+  commentId: T:Moq.Mock`1
+  isExternal: true
+  name: Mock<T>
+  nameWithType: Mock<T>
+  fullName: Moq.Mock<T>
+  nameWithType.vb: Mock(Of T)
+  fullName.vb: Moq.Mock(Of T)
+  name.vb: Mock(Of T)
+  spec.csharp:
+  - uid: Moq.Mock`1
+    name: Mock
+    isExternal: true
+  - name: <
+  - name: T
+  - name: '>'
+  spec.vb:
+  - uid: Moq.Mock`1
+    name: Mock
+    isExternal: true
+  - name: (
+  - name: Of
+  - name: " "
+  - name: T
+  - name: )
+- uid: ASE_Test_Project.MyWriteToUnitTests.TestInitialize*
+  commentId: Overload:ASE_Test_Project.MyWriteToUnitTests.TestInitialize
+  href: ASE_Test_Project.MyWriteToUnitTests.html#ASE_Test_Project_MyWriteToUnitTests_TestInitialize
+  name: TestInitialize
+  nameWithType: MyWriteToUnitTests.TestInitialize
+  fullName: ASE_Test_Project.MyWriteToUnitTests.TestInitialize
+- uid: BOOSE.Canvas
+  commentId: T:BOOSE.Canvas
+  parent: BOOSE
+  isExternal: true
+  name: Canvas
+  nameWithType: Canvas
+  fullName: BOOSE.Canvas
+- uid: ASE_Test_Project.MyWriteToUnitTests.Constructor_ShouldInitialize_WhenParametersAreValid*
+  commentId: Overload:ASE_Test_Project.MyWriteToUnitTests.Constructor_ShouldInitialize_WhenParametersAreValid
+  href: ASE_Test_Project.MyWriteToUnitTests.html#ASE_Test_Project_MyWriteToUnitTests_Constructor_ShouldInitialize_WhenParametersAreValid
+  name: Constructor_ShouldInitialize_WhenParametersAreValid
+  nameWithType: MyWriteToUnitTests.Constructor_ShouldInitialize_WhenParametersAreValid
+  fullName: ASE_Test_Project.MyWriteToUnitTests.Constructor_ShouldInitialize_WhenParametersAreValid
+- uid: BOOSE
+  commentId: N:BOOSE
+  isExternal: true
+  name: BOOSE
+  nameWithType: BOOSE
+  fullName: BOOSE
+- uid: ASE_Dinesh_Bahadur_Ayer_77356697.MyApp.MyWriteTo.Execute
+  commentId: M:ASE_Dinesh_Bahadur_Ayer_77356697.MyApp.MyWriteTo.Execute
+  href: ASE_Dinesh_Bahadur_Ayer_77356697.MyApp.MyWriteTo.html#ASE_Dinesh_Bahadur_Ayer_77356697_MyApp_MyWriteTo_Execute
+  name: Execute()
+  nameWithType: MyWriteTo.Execute()
+  fullName: ASE_Dinesh_Bahadur_Ayer_77356697.MyApp.MyWriteTo.Execute()
+  spec.csharp:
+  - uid: ASE_Dinesh_Bahadur_Ayer_77356697.MyApp.MyWriteTo.Execute
+    name: Execute
+    href: ASE_Dinesh_Bahadur_Ayer_77356697.MyApp.MyWriteTo.html#ASE_Dinesh_Bahadur_Ayer_77356697_MyApp_MyWriteTo_Execute
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: ASE_Dinesh_Bahadur_Ayer_77356697.MyApp.MyWriteTo.Execute
+    name: Execute
+    href: ASE_Dinesh_Bahadur_Ayer_77356697.MyApp.MyWriteTo.html#ASE_Dinesh_Bahadur_Ayer_77356697_MyApp_MyWriteTo_Execute
+  - name: (
+  - name: )
+- uid: BOOSE.RestrictionException
+  commentId: T:BOOSE.RestrictionException
+  isExternal: true
+  name: RestrictionException
+  nameWithType: RestrictionException
+  fullName: BOOSE.RestrictionException
+- uid: ASE_Test_Project.MyWriteToUnitTests.Execute_ShouldThrowRestrictionException_WhenTextIsNull*
+  commentId: Overload:ASE_Test_Project.MyWriteToUnitTests.Execute_ShouldThrowRestrictionException_WhenTextIsNull
+  href: ASE_Test_Project.MyWriteToUnitTests.html#ASE_Test_Project_MyWriteToUnitTests_Execute_ShouldThrowRestrictionException_WhenTextIsNull
+  name: Execute_ShouldThrowRestrictionException_WhenTextIsNull
+  nameWithType: MyWriteToUnitTests.Execute_ShouldThrowRestrictionException_WhenTextIsNull
+  fullName: ASE_Test_Project.MyWriteToUnitTests.Execute_ShouldThrowRestrictionException_WhenTextIsNull
+- uid: ASE_Test_Project.MyWriteToUnitTests.Execute_ShouldThrowRestrictionException_WhenTextIsEmpty*
+  commentId: Overload:ASE_Test_Project.MyWriteToUnitTests.Execute_ShouldThrowRestrictionException_WhenTextIsEmpty
+  href: ASE_Test_Project.MyWriteToUnitTests.html#ASE_Test_Project_MyWriteToUnitTests_Execute_ShouldThrowRestrictionException_WhenTextIsEmpty
+  name: Execute_ShouldThrowRestrictionException_WhenTextIsEmpty
+  nameWithType: MyWriteToUnitTests.Execute_ShouldThrowRestrictionException_WhenTextIsEmpty
+  fullName: ASE_Test_Project.MyWriteToUnitTests.Execute_ShouldThrowRestrictionException_WhenTextIsEmpty
+- uid: ASE_Test_Project.MyWriteToUnitTests.Execute_ShouldThrowRestrictionException_WhenTextIsWhitespace*
+  commentId: Overload:ASE_Test_Project.MyWriteToUnitTests.Execute_ShouldThrowRestrictionException_WhenTextIsWhitespace
+  href: ASE_Test_Project.MyWriteToUnitTests.html#ASE_Test_Project_MyWriteToUnitTests_Execute_ShouldThrowRestrictionException_WhenTextIsWhitespace
+  name: Execute_ShouldThrowRestrictionException_WhenTextIsWhitespace
+  nameWithType: MyWriteToUnitTests.Execute_ShouldThrowRestrictionException_WhenTextIsWhitespace
+  fullName: ASE_Test_Project.MyWriteToUnitTests.Execute_ShouldThrowRestrictionException_WhenTextIsWhitespace
+- uid: ASE_Test_Project.MyWriteToUnitTests.Execute_ShouldThrowRestrictionException_WhenTextExceedsLength*
+  commentId: Overload:ASE_Test_Project.MyWriteToUnitTests.Execute_ShouldThrowRestrictionException_WhenTextExceedsLength
+  href: ASE_Test_Project.MyWriteToUnitTests.html#ASE_Test_Project_MyWriteToUnitTests_Execute_ShouldThrowRestrictionException_WhenTextExceedsLength
+  name: Execute_ShouldThrowRestrictionException_WhenTextExceedsLength
+  nameWithType: MyWriteToUnitTests.Execute_ShouldThrowRestrictionException_WhenTextExceedsLength
+  fullName: ASE_Test_Project.MyWriteToUnitTests.Execute_ShouldThrowRestrictionException_WhenTextExceedsLength
+- uid: ASE_Dinesh_Bahadur_Ayer_77356697.MyApp.MyWriteTo.CheckParameters(System.String[])
+  commentId: M:ASE_Dinesh_Bahadur_Ayer_77356697.MyApp.MyWriteTo.CheckParameters(System.String[])
+  isExternal: true
+  href: ASE_Dinesh_Bahadur_Ayer_77356697.MyApp.MyWriteTo.html#ASE_Dinesh_Bahadur_Ayer_77356697_MyApp_MyWriteTo_CheckParameters_System_String___
+  name: CheckParameters(string[])
+  nameWithType: MyWriteTo.CheckParameters(string[])
+  fullName: ASE_Dinesh_Bahadur_Ayer_77356697.MyApp.MyWriteTo.CheckParameters(string[])
+  nameWithType.vb: MyWriteTo.CheckParameters(String())
+  fullName.vb: ASE_Dinesh_Bahadur_Ayer_77356697.MyApp.MyWriteTo.CheckParameters(String())
+  name.vb: CheckParameters(String())
+  spec.csharp:
+  - uid: ASE_Dinesh_Bahadur_Ayer_77356697.MyApp.MyWriteTo.CheckParameters(System.String[])
+    name: CheckParameters
+    href: ASE_Dinesh_Bahadur_Ayer_77356697.MyApp.MyWriteTo.html#ASE_Dinesh_Bahadur_Ayer_77356697_MyApp_MyWriteTo_CheckParameters_System_String___
+  - name: (
+  - uid: System.String
+    name: string
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.string
+  - name: '['
+  - name: ']'
+  - name: )
+  spec.vb:
+  - uid: ASE_Dinesh_Bahadur_Ayer_77356697.MyApp.MyWriteTo.CheckParameters(System.String[])
+    name: CheckParameters
+    href: ASE_Dinesh_Bahadur_Ayer_77356697.MyApp.MyWriteTo.html#ASE_Dinesh_Bahadur_Ayer_77356697_MyApp_MyWriteTo_CheckParameters_System_String___
+  - name: (
+  - uid: System.String
+    name: String
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.string
+  - name: (
+  - name: )
+  - name: )
+- uid: BOOSE.CommandException
+  commentId: T:BOOSE.CommandException
+  isExternal: true
+  name: CommandException
+  nameWithType: CommandException
+  fullName: BOOSE.CommandException
+- uid: ASE_Test_Project.MyWriteToUnitTests.CheckParameters_ShouldThrowCommandException_WhenParameterListIsNull*
+  commentId: Overload:ASE_Test_Project.MyWriteToUnitTests.CheckParameters_ShouldThrowCommandException_WhenParameterListIsNull
+  href: ASE_Test_Project.MyWriteToUnitTests.html#ASE_Test_Project_MyWriteToUnitTests_CheckParameters_ShouldThrowCommandException_WhenParameterListIsNull
+  name: CheckParameters_ShouldThrowCommandException_WhenParameterListIsNull
+  nameWithType: MyWriteToUnitTests.CheckParameters_ShouldThrowCommandException_WhenParameterListIsNull
+  fullName: ASE_Test_Project.MyWriteToUnitTests.CheckParameters_ShouldThrowCommandException_WhenParameterListIsNull
+- uid: ASE_Test_Project.MyWriteToUnitTests.CheckParameters_ShouldThrowCommandException_WhenParameterCountIsInvalid*
+  commentId: Overload:ASE_Test_Project.MyWriteToUnitTests.CheckParameters_ShouldThrowCommandException_WhenParameterCountIsInvalid
+  href: ASE_Test_Project.MyWriteToUnitTests.html#ASE_Test_Project_MyWriteToUnitTests_CheckParameters_ShouldThrowCommandException_WhenParameterCountIsInvalid
+  name: CheckParameters_ShouldThrowCommandException_WhenParameterCountIsInvalid
+  nameWithType: MyWriteToUnitTests.CheckParameters_ShouldThrowCommandException_WhenParameterCountIsInvalid
+  fullName: ASE_Test_Project.MyWriteToUnitTests.CheckParameters_ShouldThrowCommandException_WhenParameterCountIsInvalid
+- uid: ASE_Test_Project.MyWriteToUnitTests.CheckParameters_ShouldThrowCommandException_WhenParameterIsWhitespace*
+  commentId: Overload:ASE_Test_Project.MyWriteToUnitTests.CheckParameters_ShouldThrowCommandException_WhenParameterIsWhitespace
+  href: ASE_Test_Project.MyWriteToUnitTests.html#ASE_Test_Project_MyWriteToUnitTests_CheckParameters_ShouldThrowCommandException_WhenParameterIsWhitespace
+  name: CheckParameters_ShouldThrowCommandException_WhenParameterIsWhitespace
+  nameWithType: MyWriteToUnitTests.CheckParameters_ShouldThrowCommandException_WhenParameterIsWhitespace
+  fullName: ASE_Test_Project.MyWriteToUnitTests.CheckParameters_ShouldThrowCommandException_WhenParameterIsWhitespace
+- uid: ASE_Test_Project.MyWriteToUnitTests.CheckParameters_ShouldNotThrow_WhenParameterIsValid*
+  commentId: Overload:ASE_Test_Project.MyWriteToUnitTests.CheckParameters_ShouldNotThrow_WhenParameterIsValid
+  href: ASE_Test_Project.MyWriteToUnitTests.html#ASE_Test_Project_MyWriteToUnitTests_CheckParameters_ShouldNotThrow_WhenParameterIsValid
+  name: CheckParameters_ShouldNotThrow_WhenParameterIsValid
+  nameWithType: MyWriteToUnitTests.CheckParameters_ShouldNotThrow_WhenParameterIsValid
+  fullName: ASE_Test_Project.MyWriteToUnitTests.CheckParameters_ShouldNotThrow_WhenParameterIsValid

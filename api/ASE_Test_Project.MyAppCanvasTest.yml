@@ -1,0 +1,2025 @@
+### YamlMime:ManagedReference
+items:
+- uid: ASE_Test_Project.MyAppCanvasTest
+  commentId: T:ASE_Test_Project.MyAppCanvasTest
+  id: MyAppCanvasTest
+  parent: ASE_Test_Project
+  children:
+  - ASE_Test_Project.MyAppCanvasTest.DrawTo_ShouldThrowException_WhenCoordinatesAreOutOfBounds
+  - ASE_Test_Project.MyAppCanvasTest.DrawTo_ShouldThrowException_WhenGraphicsContextIsNull
+  - ASE_Test_Project.MyAppCanvasTest.DrawTo_ShouldUpdateCursorPosition_WhenCoordinatesAreValid
+  - ASE_Test_Project.MyAppCanvasTest.MoveTo_ShouldThrowException_WhenCoordinatesAreOutOfBounds
+  - ASE_Test_Project.MyAppCanvasTest.MoveTo_ShouldUpdateCursorPosition_WhenCoordinatesAreValid
+  - ASE_Test_Project.MyAppCanvasTest.Rect_ShouldDrawFilledRectangle_WhenValid
+  - ASE_Test_Project.MyAppCanvasTest.Rect_ShouldThrowException_WhenDimensionsAreInvalid
+  - ASE_Test_Project.MyAppCanvasTest.SetCanvas_ShouldInitialize_WhenBitmapAndGraphicsAreValid
+  - ASE_Test_Project.MyAppCanvasTest.SetColour_ShouldThrowException_WhenRGBValuesAreInvalid
+  - ASE_Test_Project.MyAppCanvasTest.SetUp
+  - ASE_Test_Project.MyAppCanvasTest.TestBoundaryPenPosition
+  - ASE_Test_Project.MyAppCanvasTest.TestCircleExceedsCanvas
+  - ASE_Test_Project.MyAppCanvasTest.TestCustomCanvasSizeInitialization
+  - ASE_Test_Project.MyAppCanvasTest.TestDefaultConstructor
+  - ASE_Test_Project.MyAppCanvasTest.TestDrawCircleInvalidRadius
+  - ASE_Test_Project.MyAppCanvasTest.TestDrawCircleValid
+  - ASE_Test_Project.MyAppCanvasTest.TestExceedMaximumCanvasSize
+  - ASE_Test_Project.MyAppCanvasTest.TestInvalidCanvasSize_ShouldThrowCanvasException
+  - ASE_Test_Project.MyAppCanvasTest.TestResetCanvas
+  - ASE_Test_Project.MyAppCanvasTest.TestSetPenColorValid
+  - ASE_Test_Project.MyAppCanvasTest.TestSetPenPositionInvalid
+  - ASE_Test_Project.MyAppCanvasTest.TestSetPenPositionValid
+  - ASE_Test_Project.MyAppCanvasTest.TestSetPenSizeInvalid
+  - ASE_Test_Project.MyAppCanvasTest.TestSetPenSizeValid
+  - ASE_Test_Project.MyAppCanvasTest.TestToggleShapeFilling
+  - ASE_Test_Project.MyAppCanvasTest.canvas
+  langs:
+  - csharp
+  - vb
+  name: MyAppCanvasTest
+  nameWithType: MyAppCanvasTest
+  fullName: ASE_Test_Project.MyAppCanvasTest
+  type: Class
+  source:
+    remote:
+      path: ASE_Dinesh_Bahadur_Ayer_77356697/ASE_Test_Project/MyAppCanvasTest.cs
+      branch: main
+      repo: https://github.com/ASE-Classroom/ase-demo-assignment-dinesh69012.git
+    id: MyAppCanvasTest
+    path: ASE_Test_Project/MyAppCanvasTest.cs
+    startLine: 9
+  assemblies:
+  - ASE_Test_Project
+  namespace: ASE_Test_Project
+  summary: This class contains unit tests for verifying the functionality of the <xref href="ASE_Dinesh_Bahadur_Ayer_77356697.MyApp.MyAppCanvas" data-throw-if-not-resolved="false"></xref> class.
+  example: []
+  syntax:
+    content: >-
+      [TestClass]
+
+      public sealed class MyAppCanvasTest
+    content.vb: >-
+      <TestClass>
+
+      Public NotInheritable Class MyAppCanvasTest
+  inheritance:
+  - System.Object
+  inheritedMembers:
+  - System.Object.Equals(System.Object)
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.GetHashCode
+  - System.Object.GetType
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+  - System.Object.ToString
+  attributes:
+  - type: Microsoft.VisualStudio.TestTools.UnitTesting.TestClassAttribute
+    ctor: Microsoft.VisualStudio.TestTools.UnitTesting.TestClassAttribute.#ctor
+    arguments: []
+- uid: ASE_Test_Project.MyAppCanvasTest.canvas
+  commentId: F:ASE_Test_Project.MyAppCanvasTest.canvas
+  id: canvas
+  parent: ASE_Test_Project.MyAppCanvasTest
+  langs:
+  - csharp
+  - vb
+  name: canvas
+  nameWithType: MyAppCanvasTest.canvas
+  fullName: ASE_Test_Project.MyAppCanvasTest.canvas
+  type: Field
+  source:
+    remote:
+      path: ASE_Dinesh_Bahadur_Ayer_77356697/ASE_Test_Project/MyAppCanvasTest.cs
+      branch: main
+      repo: https://github.com/ASE-Classroom/ase-demo-assignment-dinesh69012.git
+    id: canvas
+    path: ASE_Test_Project/MyAppCanvasTest.cs
+    startLine: 15
+  assemblies:
+  - ASE_Test_Project
+  namespace: ASE_Test_Project
+  summary: An instance of <xref href="ASE_Dinesh_Bahadur_Ayer_77356697.MyApp.MyAppCanvas" data-throw-if-not-resolved="false"></xref> to be used in tests.
+  example: []
+  syntax:
+    content: public MyAppCanvas canvas
+    return:
+      type: ASE_Dinesh_Bahadur_Ayer_77356697.MyApp.MyAppCanvas
+    content.vb: Public canvas As MyAppCanvas
+- uid: ASE_Test_Project.MyAppCanvasTest.SetUp
+  commentId: M:ASE_Test_Project.MyAppCanvasTest.SetUp
+  id: SetUp
+  parent: ASE_Test_Project.MyAppCanvasTest
+  langs:
+  - csharp
+  - vb
+  name: SetUp()
+  nameWithType: MyAppCanvasTest.SetUp()
+  fullName: ASE_Test_Project.MyAppCanvasTest.SetUp()
+  type: Method
+  source:
+    remote:
+      path: ASE_Dinesh_Bahadur_Ayer_77356697/ASE_Test_Project/MyAppCanvasTest.cs
+      branch: main
+      repo: https://github.com/ASE-Classroom/ase-demo-assignment-dinesh69012.git
+    id: SetUp
+    path: ASE_Test_Project/MyAppCanvasTest.cs
+    startLine: 20
+  assemblies:
+  - ASE_Test_Project
+  namespace: ASE_Test_Project
+  summary: Sets up the test environment by initializing a new <xref href="ASE_Dinesh_Bahadur_Ayer_77356697.MyApp.MyAppCanvas" data-throw-if-not-resolved="false"></xref> before each test.
+  example: []
+  syntax:
+    content: >-
+      [TestInitialize]
+
+      public void SetUp()
+    content.vb: >-
+      <TestInitialize>
+
+      Public Sub SetUp()
+  overload: ASE_Test_Project.MyAppCanvasTest.SetUp*
+  attributes:
+  - type: Microsoft.VisualStudio.TestTools.UnitTesting.TestInitializeAttribute
+    ctor: Microsoft.VisualStudio.TestTools.UnitTesting.TestInitializeAttribute.#ctor
+    arguments: []
+- uid: ASE_Test_Project.MyAppCanvasTest.TestDefaultConstructor
+  commentId: M:ASE_Test_Project.MyAppCanvasTest.TestDefaultConstructor
+  id: TestDefaultConstructor
+  parent: ASE_Test_Project.MyAppCanvasTest
+  langs:
+  - csharp
+  - vb
+  name: TestDefaultConstructor()
+  nameWithType: MyAppCanvasTest.TestDefaultConstructor()
+  fullName: ASE_Test_Project.MyAppCanvasTest.TestDefaultConstructor()
+  type: Method
+  source:
+    remote:
+      path: ASE_Dinesh_Bahadur_Ayer_77356697/ASE_Test_Project/MyAppCanvasTest.cs
+      branch: main
+      repo: https://github.com/ASE-Classroom/ase-demo-assignment-dinesh69012.git
+    id: TestDefaultConstructor
+    path: ASE_Test_Project/MyAppCanvasTest.cs
+    startLine: 29
+  assemblies:
+  - ASE_Test_Project
+  namespace: ASE_Test_Project
+  summary: Tests whether the default constructor initializes the canvas fields with the expected values.
+  example: []
+  syntax:
+    content: >-
+      [TestMethod]
+
+      public void TestDefaultConstructor()
+    content.vb: >-
+      <TestMethod>
+
+      Public Sub TestDefaultConstructor()
+  overload: ASE_Test_Project.MyAppCanvasTest.TestDefaultConstructor*
+  attributes:
+  - type: Microsoft.VisualStudio.TestTools.UnitTesting.TestMethodAttribute
+    ctor: Microsoft.VisualStudio.TestTools.UnitTesting.TestMethodAttribute.#ctor
+    arguments: []
+- uid: ASE_Test_Project.MyAppCanvasTest.TestCustomCanvasSizeInitialization
+  commentId: M:ASE_Test_Project.MyAppCanvasTest.TestCustomCanvasSizeInitialization
+  id: TestCustomCanvasSizeInitialization
+  parent: ASE_Test_Project.MyAppCanvasTest
+  langs:
+  - csharp
+  - vb
+  name: TestCustomCanvasSizeInitialization()
+  nameWithType: MyAppCanvasTest.TestCustomCanvasSizeInitialization()
+  fullName: ASE_Test_Project.MyAppCanvasTest.TestCustomCanvasSizeInitialization()
+  type: Method
+  source:
+    remote:
+      path: ASE_Dinesh_Bahadur_Ayer_77356697/ASE_Test_Project/MyAppCanvasTest.cs
+      branch: main
+      repo: https://github.com/ASE-Classroom/ase-demo-assignment-dinesh69012.git
+    id: TestCustomCanvasSizeInitialization
+    path: ASE_Test_Project/MyAppCanvasTest.cs
+    startLine: 47
+  assemblies:
+  - ASE_Test_Project
+  namespace: ASE_Test_Project
+  summary: >-
+    Tests whether calling <xref href="ASE_Dinesh_Bahadur_Ayer_77356697.MyApp.MyAppCanvas.Set(System.Int32%2cSystem.Int32)" data-throw-if-not-resolved="false"></xref> with valid dimensions
+
+    properly updates the <xref href="ASE_Dinesh_Bahadur_Ayer_77356697.MyApp.MyAppCanvas.XSIDE" data-throw-if-not-resolved="false"></xref> and <xref href="ASE_Dinesh_Bahadur_Ayer_77356697.MyApp.MyAppCanvas.YSIDE" data-throw-if-not-resolved="false"></xref> properties.
+  example: []
+  syntax:
+    content: >-
+      [TestMethod]
+
+      public void TestCustomCanvasSizeInitialization()
+    content.vb: >-
+      <TestMethod>
+
+      Public Sub TestCustomCanvasSizeInitialization()
+  overload: ASE_Test_Project.MyAppCanvasTest.TestCustomCanvasSizeInitialization*
+  attributes:
+  - type: Microsoft.VisualStudio.TestTools.UnitTesting.TestMethodAttribute
+    ctor: Microsoft.VisualStudio.TestTools.UnitTesting.TestMethodAttribute.#ctor
+    arguments: []
+- uid: ASE_Test_Project.MyAppCanvasTest.TestInvalidCanvasSize_ShouldThrowCanvasException
+  commentId: M:ASE_Test_Project.MyAppCanvasTest.TestInvalidCanvasSize_ShouldThrowCanvasException
+  id: TestInvalidCanvasSize_ShouldThrowCanvasException
+  parent: ASE_Test_Project.MyAppCanvasTest
+  langs:
+  - csharp
+  - vb
+  name: TestInvalidCanvasSize_ShouldThrowCanvasException()
+  nameWithType: MyAppCanvasTest.TestInvalidCanvasSize_ShouldThrowCanvasException()
+  fullName: ASE_Test_Project.MyAppCanvasTest.TestInvalidCanvasSize_ShouldThrowCanvasException()
+  type: Method
+  source:
+    remote:
+      path: ASE_Dinesh_Bahadur_Ayer_77356697/ASE_Test_Project/MyAppCanvasTest.cs
+      branch: main
+      repo: https://github.com/ASE-Classroom/ase-demo-assignment-dinesh69012.git
+    id: TestInvalidCanvasSize_ShouldThrowCanvasException
+    path: ASE_Test_Project/MyAppCanvasTest.cs
+    startLine: 59
+  assemblies:
+  - ASE_Test_Project
+  namespace: ASE_Test_Project
+  summary: >-
+    Tests whether <xref href="ASE_Dinesh_Bahadur_Ayer_77356697.MyApp.MyAppCanvas.Set(System.Int32%2cSystem.Int32)" data-throw-if-not-resolved="false"></xref> throws a <xref href="BOOSE.CanvasException" data-throw-if-not-resolved="false"></xref>
+
+    when invalid dimensions are provided (negative values).
+  example: []
+  syntax:
+    content: >-
+      [TestMethod]
+
+      public void TestInvalidCanvasSize_ShouldThrowCanvasException()
+    content.vb: >-
+      <TestMethod>
+
+      Public Sub TestInvalidCanvasSize_ShouldThrowCanvasException()
+  overload: ASE_Test_Project.MyAppCanvasTest.TestInvalidCanvasSize_ShouldThrowCanvasException*
+  attributes:
+  - type: Microsoft.VisualStudio.TestTools.UnitTesting.TestMethodAttribute
+    ctor: Microsoft.VisualStudio.TestTools.UnitTesting.TestMethodAttribute.#ctor
+    arguments: []
+- uid: ASE_Test_Project.MyAppCanvasTest.TestSetPenSizeValid
+  commentId: M:ASE_Test_Project.MyAppCanvasTest.TestSetPenSizeValid
+  id: TestSetPenSizeValid
+  parent: ASE_Test_Project.MyAppCanvasTest
+  langs:
+  - csharp
+  - vb
+  name: TestSetPenSizeValid()
+  nameWithType: MyAppCanvasTest.TestSetPenSizeValid()
+  fullName: ASE_Test_Project.MyAppCanvasTest.TestSetPenSizeValid()
+  type: Method
+  source:
+    remote:
+      path: ASE_Dinesh_Bahadur_Ayer_77356697/ASE_Test_Project/MyAppCanvasTest.cs
+      branch: main
+      repo: https://github.com/ASE-Classroom/ase-demo-assignment-dinesh69012.git
+    id: TestSetPenSizeValid
+    path: ASE_Test_Project/MyAppCanvasTest.cs
+    startLine: 73
+  assemblies:
+  - ASE_Test_Project
+  namespace: ASE_Test_Project
+  summary: >-
+    Tests whether the <xref href="ASE_Dinesh_Bahadur_Ayer_77356697.MyApp.MyAppCanvas.PenSize" data-throw-if-not-resolved="false"></xref> property
+
+    is correctly set for valid pen sizes.
+  example: []
+  syntax:
+    content: >-
+      [TestMethod]
+
+      public void TestSetPenSizeValid()
+    content.vb: >-
+      <TestMethod>
+
+      Public Sub TestSetPenSizeValid()
+  overload: ASE_Test_Project.MyAppCanvasTest.TestSetPenSizeValid*
+  attributes:
+  - type: Microsoft.VisualStudio.TestTools.UnitTesting.TestMethodAttribute
+    ctor: Microsoft.VisualStudio.TestTools.UnitTesting.TestMethodAttribute.#ctor
+    arguments: []
+- uid: ASE_Test_Project.MyAppCanvasTest.TestSetPenSizeInvalid
+  commentId: M:ASE_Test_Project.MyAppCanvasTest.TestSetPenSizeInvalid
+  id: TestSetPenSizeInvalid
+  parent: ASE_Test_Project.MyAppCanvasTest
+  langs:
+  - csharp
+  - vb
+  name: TestSetPenSizeInvalid()
+  nameWithType: MyAppCanvasTest.TestSetPenSizeInvalid()
+  fullName: ASE_Test_Project.MyAppCanvasTest.TestSetPenSizeInvalid()
+  type: Method
+  source:
+    remote:
+      path: ASE_Dinesh_Bahadur_Ayer_77356697/ASE_Test_Project/MyAppCanvasTest.cs
+      branch: main
+      repo: https://github.com/ASE-Classroom/ase-demo-assignment-dinesh69012.git
+    id: TestSetPenSizeInvalid
+    path: ASE_Test_Project/MyAppCanvasTest.cs
+    startLine: 84
+  assemblies:
+  - ASE_Test_Project
+  namespace: ASE_Test_Project
+  summary: >-
+    Tests whether the <xref href="ASE_Dinesh_Bahadur_Ayer_77356697.MyApp.MyAppCanvas.PenSize" data-throw-if-not-resolved="false"></xref> property
+
+    defaults to 1 when an invalid (non-positive) size is set.
+  example: []
+  syntax:
+    content: >-
+      [TestMethod]
+
+      public void TestSetPenSizeInvalid()
+    content.vb: >-
+      <TestMethod>
+
+      Public Sub TestSetPenSizeInvalid()
+  overload: ASE_Test_Project.MyAppCanvasTest.TestSetPenSizeInvalid*
+  attributes:
+  - type: Microsoft.VisualStudio.TestTools.UnitTesting.TestMethodAttribute
+    ctor: Microsoft.VisualStudio.TestTools.UnitTesting.TestMethodAttribute.#ctor
+    arguments: []
+- uid: ASE_Test_Project.MyAppCanvasTest.TestSetPenColorValid
+  commentId: M:ASE_Test_Project.MyAppCanvasTest.TestSetPenColorValid
+  id: TestSetPenColorValid
+  parent: ASE_Test_Project.MyAppCanvasTest
+  langs:
+  - csharp
+  - vb
+  name: TestSetPenColorValid()
+  nameWithType: MyAppCanvasTest.TestSetPenColorValid()
+  fullName: ASE_Test_Project.MyAppCanvasTest.TestSetPenColorValid()
+  type: Method
+  source:
+    remote:
+      path: ASE_Dinesh_Bahadur_Ayer_77356697/ASE_Test_Project/MyAppCanvasTest.cs
+      branch: main
+      repo: https://github.com/ASE-Classroom/ase-demo-assignment-dinesh69012.git
+    id: TestSetPenColorValid
+    path: ASE_Test_Project/MyAppCanvasTest.cs
+    startLine: 98
+  assemblies:
+  - ASE_Test_Project
+  namespace: ASE_Test_Project
+  summary: >-
+    Tests whether the <xref href="ASE_Dinesh_Bahadur_Ayer_77356697.MyApp.MyAppCanvas.PenColour" data-throw-if-not-resolved="false"></xref> property
+
+    is correctly updated with a valid <xref href="System.Drawing.Color" data-throw-if-not-resolved="false"></xref> object.
+  example: []
+  syntax:
+    content: >-
+      [TestMethod]
+
+      public void TestSetPenColorValid()
+    content.vb: >-
+      <TestMethod>
+
+      Public Sub TestSetPenColorValid()
+  overload: ASE_Test_Project.MyAppCanvasTest.TestSetPenColorValid*
+  attributes:
+  - type: Microsoft.VisualStudio.TestTools.UnitTesting.TestMethodAttribute
+    ctor: Microsoft.VisualStudio.TestTools.UnitTesting.TestMethodAttribute.#ctor
+    arguments: []
+- uid: ASE_Test_Project.MyAppCanvasTest.TestSetPenPositionValid
+  commentId: M:ASE_Test_Project.MyAppCanvasTest.TestSetPenPositionValid
+  id: TestSetPenPositionValid
+  parent: ASE_Test_Project.MyAppCanvasTest
+  langs:
+  - csharp
+  - vb
+  name: TestSetPenPositionValid()
+  nameWithType: MyAppCanvasTest.TestSetPenPositionValid()
+  fullName: ASE_Test_Project.MyAppCanvasTest.TestSetPenPositionValid()
+  type: Method
+  source:
+    remote:
+      path: ASE_Dinesh_Bahadur_Ayer_77356697/ASE_Test_Project/MyAppCanvasTest.cs
+      branch: main
+      repo: https://github.com/ASE-Classroom/ase-demo-assignment-dinesh69012.git
+    id: TestSetPenPositionValid
+    path: ASE_Test_Project/MyAppCanvasTest.cs
+    startLine: 109
+  assemblies:
+  - ASE_Test_Project
+  namespace: ASE_Test_Project
+  summary: >-
+    Tests whether the <xref href="ASE_Dinesh_Bahadur_Ayer_77356697.MyApp.MyAppCanvas.Xpos" data-throw-if-not-resolved="false"></xref> and <xref href="ASE_Dinesh_Bahadur_Ayer_77356697.MyApp.MyAppCanvas.Ypos" data-throw-if-not-resolved="false"></xref> properties
+
+    are set correctly when valid values are assigned.
+  example: []
+  syntax:
+    content: >-
+      [TestMethod]
+
+      public void TestSetPenPositionValid()
+    content.vb: >-
+      <TestMethod>
+
+      Public Sub TestSetPenPositionValid()
+  overload: ASE_Test_Project.MyAppCanvasTest.TestSetPenPositionValid*
+  attributes:
+  - type: Microsoft.VisualStudio.TestTools.UnitTesting.TestMethodAttribute
+    ctor: Microsoft.VisualStudio.TestTools.UnitTesting.TestMethodAttribute.#ctor
+    arguments: []
+- uid: ASE_Test_Project.MyAppCanvasTest.TestSetPenPositionInvalid
+  commentId: M:ASE_Test_Project.MyAppCanvasTest.TestSetPenPositionInvalid
+  id: TestSetPenPositionInvalid
+  parent: ASE_Test_Project.MyAppCanvasTest
+  langs:
+  - csharp
+  - vb
+  name: TestSetPenPositionInvalid()
+  nameWithType: MyAppCanvasTest.TestSetPenPositionInvalid()
+  fullName: ASE_Test_Project.MyAppCanvasTest.TestSetPenPositionInvalid()
+  type: Method
+  source:
+    remote:
+      path: ASE_Dinesh_Bahadur_Ayer_77356697/ASE_Test_Project/MyAppCanvasTest.cs
+      branch: main
+      repo: https://github.com/ASE-Classroom/ase-demo-assignment-dinesh69012.git
+    id: TestSetPenPositionInvalid
+    path: ASE_Test_Project/MyAppCanvasTest.cs
+    startLine: 122
+  assemblies:
+  - ASE_Test_Project
+  namespace: ASE_Test_Project
+  summary: >-
+    Tests whether the <xref href="ASE_Dinesh_Bahadur_Ayer_77356697.MyApp.MyAppCanvas.Xpos" data-throw-if-not-resolved="false"></xref> and <xref href="ASE_Dinesh_Bahadur_Ayer_77356697.MyApp.MyAppCanvas.Ypos" data-throw-if-not-resolved="false"></xref> properties
+
+    default to 0 when invalid (negative) values are assigned.
+  example: []
+  syntax:
+    content: >-
+      [TestMethod]
+
+      public void TestSetPenPositionInvalid()
+    content.vb: >-
+      <TestMethod>
+
+      Public Sub TestSetPenPositionInvalid()
+  overload: ASE_Test_Project.MyAppCanvasTest.TestSetPenPositionInvalid*
+  attributes:
+  - type: Microsoft.VisualStudio.TestTools.UnitTesting.TestMethodAttribute
+    ctor: Microsoft.VisualStudio.TestTools.UnitTesting.TestMethodAttribute.#ctor
+    arguments: []
+- uid: ASE_Test_Project.MyAppCanvasTest.TestBoundaryPenPosition
+  commentId: M:ASE_Test_Project.MyAppCanvasTest.TestBoundaryPenPosition
+  id: TestBoundaryPenPosition
+  parent: ASE_Test_Project.MyAppCanvasTest
+  langs:
+  - csharp
+  - vb
+  name: TestBoundaryPenPosition()
+  nameWithType: MyAppCanvasTest.TestBoundaryPenPosition()
+  fullName: ASE_Test_Project.MyAppCanvasTest.TestBoundaryPenPosition()
+  type: Method
+  source:
+    remote:
+      path: ASE_Dinesh_Bahadur_Ayer_77356697/ASE_Test_Project/MyAppCanvasTest.cs
+      branch: main
+      repo: https://github.com/ASE-Classroom/ase-demo-assignment-dinesh69012.git
+    id: TestBoundaryPenPosition
+    path: ASE_Test_Project/MyAppCanvasTest.cs
+    startLine: 136
+  assemblies:
+  - ASE_Test_Project
+  namespace: ASE_Test_Project
+  summary: >-
+    Tests whether the <xref href="ASE_Dinesh_Bahadur_Ayer_77356697.MyApp.MyAppCanvas.Xpos" data-throw-if-not-resolved="false"></xref> and <xref href="ASE_Dinesh_Bahadur_Ayer_77356697.MyApp.MyAppCanvas.Ypos" data-throw-if-not-resolved="false"></xref> properties
+
+    default to 0 when values exceeding the canvas boundaries are assigned.
+  example: []
+  syntax:
+    content: >-
+      [TestMethod]
+
+      public void TestBoundaryPenPosition()
+    content.vb: >-
+      <TestMethod>
+
+      Public Sub TestBoundaryPenPosition()
+  overload: ASE_Test_Project.MyAppCanvasTest.TestBoundaryPenPosition*
+  attributes:
+  - type: Microsoft.VisualStudio.TestTools.UnitTesting.TestMethodAttribute
+    ctor: Microsoft.VisualStudio.TestTools.UnitTesting.TestMethodAttribute.#ctor
+    arguments: []
+- uid: ASE_Test_Project.MyAppCanvasTest.TestDrawCircleValid
+  commentId: M:ASE_Test_Project.MyAppCanvasTest.TestDrawCircleValid
+  id: TestDrawCircleValid
+  parent: ASE_Test_Project.MyAppCanvasTest
+  langs:
+  - csharp
+  - vb
+  name: TestDrawCircleValid()
+  nameWithType: MyAppCanvasTest.TestDrawCircleValid()
+  fullName: ASE_Test_Project.MyAppCanvasTest.TestDrawCircleValid()
+  type: Method
+  source:
+    remote:
+      path: ASE_Dinesh_Bahadur_Ayer_77356697/ASE_Test_Project/MyAppCanvasTest.cs
+      branch: main
+      repo: https://github.com/ASE-Classroom/ase-demo-assignment-dinesh69012.git
+    id: TestDrawCircleValid
+    path: ASE_Test_Project/MyAppCanvasTest.cs
+    startLine: 151
+  assemblies:
+  - ASE_Test_Project
+  namespace: ASE_Test_Project
+  summary: >-
+    Tests the <xref href="ASE_Dinesh_Bahadur_Ayer_77356697.MyApp.MyAppCanvas.Circle(System.Int32%2cSystem.Boolean)" data-throw-if-not-resolved="false"></xref> method with valid parameters
+
+    to ensure no exceptions are thrown. 
+
+    Verifies the command doesn't break the logic when radius is valid.
+  example: []
+  syntax:
+    content: >-
+      [TestMethod]
+
+      public void TestDrawCircleValid()
+    content.vb: >-
+      <TestMethod>
+
+      Public Sub TestDrawCircleValid()
+  overload: ASE_Test_Project.MyAppCanvasTest.TestDrawCircleValid*
+  attributes:
+  - type: Microsoft.VisualStudio.TestTools.UnitTesting.TestMethodAttribute
+    ctor: Microsoft.VisualStudio.TestTools.UnitTesting.TestMethodAttribute.#ctor
+    arguments: []
+- uid: ASE_Test_Project.MyAppCanvasTest.TestDrawCircleInvalidRadius
+  commentId: M:ASE_Test_Project.MyAppCanvasTest.TestDrawCircleInvalidRadius
+  id: TestDrawCircleInvalidRadius
+  parent: ASE_Test_Project.MyAppCanvasTest
+  langs:
+  - csharp
+  - vb
+  name: TestDrawCircleInvalidRadius()
+  nameWithType: MyAppCanvasTest.TestDrawCircleInvalidRadius()
+  fullName: ASE_Test_Project.MyAppCanvasTest.TestDrawCircleInvalidRadius()
+  type: Method
+  source:
+    remote:
+      path: ASE_Dinesh_Bahadur_Ayer_77356697/ASE_Test_Project/MyAppCanvasTest.cs
+      branch: main
+      repo: https://github.com/ASE-Classroom/ase-demo-assignment-dinesh69012.git
+    id: TestDrawCircleInvalidRadius
+    path: ASE_Test_Project/MyAppCanvasTest.cs
+    startLine: 164
+  assemblies:
+  - ASE_Test_Project
+  namespace: ASE_Test_Project
+  summary: >-
+    Tests whether <xref href="ASE_Dinesh_Bahadur_Ayer_77356697.MyApp.MyAppCanvas.Circle(System.Int32%2cSystem.Boolean)" data-throw-if-not-resolved="false"></xref> throws a <xref href="BOOSE.CanvasException" data-throw-if-not-resolved="false"></xref>
+
+    when an invalid (negative) radius is provided.
+  example: []
+  syntax:
+    content: >-
+      [TestMethod]
+
+      public void TestDrawCircleInvalidRadius()
+    content.vb: >-
+      <TestMethod>
+
+      Public Sub TestDrawCircleInvalidRadius()
+  overload: ASE_Test_Project.MyAppCanvasTest.TestDrawCircleInvalidRadius*
+  attributes:
+  - type: Microsoft.VisualStudio.TestTools.UnitTesting.TestMethodAttribute
+    ctor: Microsoft.VisualStudio.TestTools.UnitTesting.TestMethodAttribute.#ctor
+    arguments: []
+- uid: ASE_Test_Project.MyAppCanvasTest.TestToggleShapeFilling
+  commentId: M:ASE_Test_Project.MyAppCanvasTest.TestToggleShapeFilling
+  id: TestToggleShapeFilling
+  parent: ASE_Test_Project.MyAppCanvasTest
+  langs:
+  - csharp
+  - vb
+  name: TestToggleShapeFilling()
+  nameWithType: MyAppCanvasTest.TestToggleShapeFilling()
+  fullName: ASE_Test_Project.MyAppCanvasTest.TestToggleShapeFilling()
+  type: Method
+  source:
+    remote:
+      path: ASE_Dinesh_Bahadur_Ayer_77356697/ASE_Test_Project/MyAppCanvasTest.cs
+      branch: main
+      repo: https://github.com/ASE-Classroom/ase-demo-assignment-dinesh69012.git
+    id: TestToggleShapeFilling
+    path: ASE_Test_Project/MyAppCanvasTest.cs
+    startLine: 174
+  assemblies:
+  - ASE_Test_Project
+  namespace: ASE_Test_Project
+  summary: >-
+    Tests toggling the <xref href="ASE_Dinesh_Bahadur_Ayer_77356697.MyApp.MyAppCanvas.Filled" data-throw-if-not-resolved="false"></xref> property
+
+    to ensure it is updated correctly for shape filling.
+  example: []
+  syntax:
+    content: >-
+      [TestMethod]
+
+      public void TestToggleShapeFilling()
+    content.vb: >-
+      <TestMethod>
+
+      Public Sub TestToggleShapeFilling()
+  overload: ASE_Test_Project.MyAppCanvasTest.TestToggleShapeFilling*
+  attributes:
+  - type: Microsoft.VisualStudio.TestTools.UnitTesting.TestMethodAttribute
+    ctor: Microsoft.VisualStudio.TestTools.UnitTesting.TestMethodAttribute.#ctor
+    arguments: []
+- uid: ASE_Test_Project.MyAppCanvasTest.TestExceedMaximumCanvasSize
+  commentId: M:ASE_Test_Project.MyAppCanvasTest.TestExceedMaximumCanvasSize
+  id: TestExceedMaximumCanvasSize
+  parent: ASE_Test_Project.MyAppCanvasTest
+  langs:
+  - csharp
+  - vb
+  name: TestExceedMaximumCanvasSize()
+  nameWithType: MyAppCanvasTest.TestExceedMaximumCanvasSize()
+  fullName: ASE_Test_Project.MyAppCanvasTest.TestExceedMaximumCanvasSize()
+  type: Method
+  source:
+    remote:
+      path: ASE_Dinesh_Bahadur_Ayer_77356697/ASE_Test_Project/MyAppCanvasTest.cs
+      branch: main
+      repo: https://github.com/ASE-Classroom/ase-demo-assignment-dinesh69012.git
+    id: TestExceedMaximumCanvasSize
+    path: ASE_Test_Project/MyAppCanvasTest.cs
+    startLine: 188
+  assemblies:
+  - ASE_Test_Project
+  namespace: ASE_Test_Project
+  summary: >-
+    Tests whether an attempt to set the canvas size beyond the maximum integer limits
+
+    throws a <xref href="BOOSE.CanvasException" data-throw-if-not-resolved="false"></xref>.
+  example: []
+  syntax:
+    content: >-
+      [TestMethod]
+
+      [ExpectedException(typeof(CanvasException))]
+
+      public void TestExceedMaximumCanvasSize()
+    content.vb: >-
+      <TestMethod>
+
+      <ExpectedException(GetType(CanvasException))>
+
+      Public Sub TestExceedMaximumCanvasSize()
+  overload: ASE_Test_Project.MyAppCanvasTest.TestExceedMaximumCanvasSize*
+  attributes:
+  - type: Microsoft.VisualStudio.TestTools.UnitTesting.TestMethodAttribute
+    ctor: Microsoft.VisualStudio.TestTools.UnitTesting.TestMethodAttribute.#ctor
+    arguments: []
+  - type: Microsoft.VisualStudio.TestTools.UnitTesting.ExpectedExceptionAttribute
+    ctor: Microsoft.VisualStudio.TestTools.UnitTesting.ExpectedExceptionAttribute.#ctor(System.Type)
+    arguments:
+    - type: System.Type
+      value: BOOSE.CanvasException
+- uid: ASE_Test_Project.MyAppCanvasTest.TestResetCanvas
+  commentId: M:ASE_Test_Project.MyAppCanvasTest.TestResetCanvas
+  id: TestResetCanvas
+  parent: ASE_Test_Project.MyAppCanvasTest
+  langs:
+  - csharp
+  - vb
+  name: TestResetCanvas()
+  nameWithType: MyAppCanvasTest.TestResetCanvas()
+  fullName: ASE_Test_Project.MyAppCanvasTest.TestResetCanvas()
+  type: Method
+  source:
+    remote:
+      path: ASE_Dinesh_Bahadur_Ayer_77356697/ASE_Test_Project/MyAppCanvasTest.cs
+      branch: main
+      repo: https://github.com/ASE-Classroom/ase-demo-assignment-dinesh69012.git
+    id: TestResetCanvas
+    path: ASE_Test_Project/MyAppCanvasTest.cs
+    startLine: 199
+  assemblies:
+  - ASE_Test_Project
+  namespace: ASE_Test_Project
+  summary: >-
+    Tests whether the <xref href="ASE_Dinesh_Bahadur_Ayer_77356697.MyApp.MyAppCanvas.Clear" data-throw-if-not-resolved="false"></xref> method
+
+    resets the pen's current position to (0,0).
+  example: []
+  syntax:
+    content: >-
+      [TestMethod]
+
+      public void TestResetCanvas()
+    content.vb: >-
+      <TestMethod>
+
+      Public Sub TestResetCanvas()
+  overload: ASE_Test_Project.MyAppCanvasTest.TestResetCanvas*
+  attributes:
+  - type: Microsoft.VisualStudio.TestTools.UnitTesting.TestMethodAttribute
+    ctor: Microsoft.VisualStudio.TestTools.UnitTesting.TestMethodAttribute.#ctor
+    arguments: []
+- uid: ASE_Test_Project.MyAppCanvasTest.TestCircleExceedsCanvas
+  commentId: M:ASE_Test_Project.MyAppCanvasTest.TestCircleExceedsCanvas
+  id: TestCircleExceedsCanvas
+  parent: ASE_Test_Project.MyAppCanvasTest
+  langs:
+  - csharp
+  - vb
+  name: TestCircleExceedsCanvas()
+  nameWithType: MyAppCanvasTest.TestCircleExceedsCanvas()
+  fullName: ASE_Test_Project.MyAppCanvasTest.TestCircleExceedsCanvas()
+  type: Method
+  source:
+    remote:
+      path: ASE_Dinesh_Bahadur_Ayer_77356697/ASE_Test_Project/MyAppCanvasTest.cs
+      branch: main
+      repo: https://github.com/ASE-Classroom/ase-demo-assignment-dinesh69012.git
+    id: TestCircleExceedsCanvas
+    path: ASE_Test_Project/MyAppCanvasTest.cs
+    startLine: 212
+  assemblies:
+  - ASE_Test_Project
+  namespace: ASE_Test_Project
+  summary: >-
+    Tests whether <xref href="ASE_Dinesh_Bahadur_Ayer_77356697.MyApp.MyAppCanvas.Circle(System.Int32%2cSystem.Boolean)" data-throw-if-not-resolved="false"></xref> throws a <xref href="BOOSE.CanvasException" data-throw-if-not-resolved="false"></xref>
+
+    when the radius is large enough to exceed the canvas boundaries.
+  example: []
+  syntax:
+    content: >-
+      [TestMethod]
+
+      [ExpectedException(typeof(CanvasException))]
+
+      public void TestCircleExceedsCanvas()
+    content.vb: >-
+      <TestMethod>
+
+      <ExpectedException(GetType(CanvasException))>
+
+      Public Sub TestCircleExceedsCanvas()
+  overload: ASE_Test_Project.MyAppCanvasTest.TestCircleExceedsCanvas*
+  attributes:
+  - type: Microsoft.VisualStudio.TestTools.UnitTesting.TestMethodAttribute
+    ctor: Microsoft.VisualStudio.TestTools.UnitTesting.TestMethodAttribute.#ctor
+    arguments: []
+  - type: Microsoft.VisualStudio.TestTools.UnitTesting.ExpectedExceptionAttribute
+    ctor: Microsoft.VisualStudio.TestTools.UnitTesting.ExpectedExceptionAttribute.#ctor(System.Type)
+    arguments:
+    - type: System.Type
+      value: BOOSE.CanvasException
+- uid: ASE_Test_Project.MyAppCanvasTest.SetCanvas_ShouldInitialize_WhenBitmapAndGraphicsAreValid
+  commentId: M:ASE_Test_Project.MyAppCanvasTest.SetCanvas_ShouldInitialize_WhenBitmapAndGraphicsAreValid
+  id: SetCanvas_ShouldInitialize_WhenBitmapAndGraphicsAreValid
+  parent: ASE_Test_Project.MyAppCanvasTest
+  langs:
+  - csharp
+  - vb
+  name: SetCanvas_ShouldInitialize_WhenBitmapAndGraphicsAreValid()
+  nameWithType: MyAppCanvasTest.SetCanvas_ShouldInitialize_WhenBitmapAndGraphicsAreValid()
+  fullName: ASE_Test_Project.MyAppCanvasTest.SetCanvas_ShouldInitialize_WhenBitmapAndGraphicsAreValid()
+  type: Method
+  source:
+    remote:
+      path: ASE_Dinesh_Bahadur_Ayer_77356697/ASE_Test_Project/MyAppCanvasTest.cs
+      branch: main
+      repo: https://github.com/ASE-Classroom/ase-demo-assignment-dinesh69012.git
+    id: SetCanvas_ShouldInitialize_WhenBitmapAndGraphicsAreValid
+    path: ASE_Test_Project/MyAppCanvasTest.cs
+    startLine: 227
+  assemblies:
+  - ASE_Test_Project
+  namespace: ASE_Test_Project
+  summary: >-
+    Tests that the <xref href="ASE_Dinesh_Bahadur_Ayer_77356697.MyApp.MyAppCanvas.SetCanvas(System.Drawing.Bitmap%2cSystem.Drawing.Graphics)" data-throw-if-not-resolved="false"></xref> method
+
+    correctly initializes the canvas with valid <xref href="System.Drawing.Bitmap" data-throw-if-not-resolved="false"></xref> and <xref href="System.Drawing.Graphics" data-throw-if-not-resolved="false"></xref> objects.
+  example: []
+  syntax:
+    content: >-
+      [TestMethod]
+
+      public void SetCanvas_ShouldInitialize_WhenBitmapAndGraphicsAreValid()
+    content.vb: >-
+      <TestMethod>
+
+      Public Sub SetCanvas_ShouldInitialize_WhenBitmapAndGraphicsAreValid()
+  overload: ASE_Test_Project.MyAppCanvasTest.SetCanvas_ShouldInitialize_WhenBitmapAndGraphicsAreValid*
+  attributes:
+  - type: Microsoft.VisualStudio.TestTools.UnitTesting.TestMethodAttribute
+    ctor: Microsoft.VisualStudio.TestTools.UnitTesting.TestMethodAttribute.#ctor
+    arguments: []
+- uid: ASE_Test_Project.MyAppCanvasTest.DrawTo_ShouldThrowException_WhenGraphicsContextIsNull
+  commentId: M:ASE_Test_Project.MyAppCanvasTest.DrawTo_ShouldThrowException_WhenGraphicsContextIsNull
+  id: DrawTo_ShouldThrowException_WhenGraphicsContextIsNull
+  parent: ASE_Test_Project.MyAppCanvasTest
+  langs:
+  - csharp
+  - vb
+  name: DrawTo_ShouldThrowException_WhenGraphicsContextIsNull()
+  nameWithType: MyAppCanvasTest.DrawTo_ShouldThrowException_WhenGraphicsContextIsNull()
+  fullName: ASE_Test_Project.MyAppCanvasTest.DrawTo_ShouldThrowException_WhenGraphicsContextIsNull()
+  type: Method
+  source:
+    remote:
+      path: ASE_Dinesh_Bahadur_Ayer_77356697/ASE_Test_Project/MyAppCanvasTest.cs
+      branch: main
+      repo: https://github.com/ASE-Classroom/ase-demo-assignment-dinesh69012.git
+    id: DrawTo_ShouldThrowException_WhenGraphicsContextIsNull
+    path: ASE_Test_Project/MyAppCanvasTest.cs
+    startLine: 245
+  assemblies:
+  - ASE_Test_Project
+  namespace: ASE_Test_Project
+  summary: >-
+    Tests whether <xref href="ASE_Dinesh_Bahadur_Ayer_77356697.MyApp.MyAppCanvas.DrawTo(System.Int32%2cSystem.Int32)" data-throw-if-not-resolved="false"></xref> throws a <xref href="BOOSE.CanvasException" data-throw-if-not-resolved="false"></xref>
+
+    if the <xref href="System.Drawing.Graphics" data-throw-if-not-resolved="false"></xref> context is null.
+  example: []
+  syntax:
+    content: >-
+      [TestMethod]
+
+      [ExpectedException(typeof(CanvasException))]
+
+      public void DrawTo_ShouldThrowException_WhenGraphicsContextIsNull()
+    content.vb: >-
+      <TestMethod>
+
+      <ExpectedException(GetType(CanvasException))>
+
+      Public Sub DrawTo_ShouldThrowException_WhenGraphicsContextIsNull()
+  overload: ASE_Test_Project.MyAppCanvasTest.DrawTo_ShouldThrowException_WhenGraphicsContextIsNull*
+  attributes:
+  - type: Microsoft.VisualStudio.TestTools.UnitTesting.TestMethodAttribute
+    ctor: Microsoft.VisualStudio.TestTools.UnitTesting.TestMethodAttribute.#ctor
+    arguments: []
+  - type: Microsoft.VisualStudio.TestTools.UnitTesting.ExpectedExceptionAttribute
+    ctor: Microsoft.VisualStudio.TestTools.UnitTesting.ExpectedExceptionAttribute.#ctor(System.Type)
+    arguments:
+    - type: System.Type
+      value: BOOSE.CanvasException
+- uid: ASE_Test_Project.MyAppCanvasTest.DrawTo_ShouldThrowException_WhenCoordinatesAreOutOfBounds
+  commentId: M:ASE_Test_Project.MyAppCanvasTest.DrawTo_ShouldThrowException_WhenCoordinatesAreOutOfBounds
+  id: DrawTo_ShouldThrowException_WhenCoordinatesAreOutOfBounds
+  parent: ASE_Test_Project.MyAppCanvasTest
+  langs:
+  - csharp
+  - vb
+  name: DrawTo_ShouldThrowException_WhenCoordinatesAreOutOfBounds()
+  nameWithType: MyAppCanvasTest.DrawTo_ShouldThrowException_WhenCoordinatesAreOutOfBounds()
+  fullName: ASE_Test_Project.MyAppCanvasTest.DrawTo_ShouldThrowException_WhenCoordinatesAreOutOfBounds()
+  type: Method
+  source:
+    remote:
+      path: ASE_Dinesh_Bahadur_Ayer_77356697/ASE_Test_Project/MyAppCanvasTest.cs
+      branch: main
+      repo: https://github.com/ASE-Classroom/ase-demo-assignment-dinesh69012.git
+    id: DrawTo_ShouldThrowException_WhenCoordinatesAreOutOfBounds
+    path: ASE_Test_Project/MyAppCanvasTest.cs
+    startLine: 262
+  assemblies:
+  - ASE_Test_Project
+  namespace: ASE_Test_Project
+  summary: >-
+    Tests whether <xref href="ASE_Dinesh_Bahadur_Ayer_77356697.MyApp.MyAppCanvas.DrawTo(System.Int32%2cSystem.Int32)" data-throw-if-not-resolved="false"></xref> throws a <xref href="BOOSE.CanvasException" data-throw-if-not-resolved="false"></xref>
+
+    when the target coordinates are outside the current canvas boundaries.
+  example: []
+  syntax:
+    content: >-
+      [TestMethod]
+
+      [ExpectedException(typeof(CanvasException))]
+
+      public void DrawTo_ShouldThrowException_WhenCoordinatesAreOutOfBounds()
+    content.vb: >-
+      <TestMethod>
+
+      <ExpectedException(GetType(CanvasException))>
+
+      Public Sub DrawTo_ShouldThrowException_WhenCoordinatesAreOutOfBounds()
+  overload: ASE_Test_Project.MyAppCanvasTest.DrawTo_ShouldThrowException_WhenCoordinatesAreOutOfBounds*
+  attributes:
+  - type: Microsoft.VisualStudio.TestTools.UnitTesting.TestMethodAttribute
+    ctor: Microsoft.VisualStudio.TestTools.UnitTesting.TestMethodAttribute.#ctor
+    arguments: []
+  - type: Microsoft.VisualStudio.TestTools.UnitTesting.ExpectedExceptionAttribute
+    ctor: Microsoft.VisualStudio.TestTools.UnitTesting.ExpectedExceptionAttribute.#ctor(System.Type)
+    arguments:
+    - type: System.Type
+      value: BOOSE.CanvasException
+- uid: ASE_Test_Project.MyAppCanvasTest.DrawTo_ShouldUpdateCursorPosition_WhenCoordinatesAreValid
+  commentId: M:ASE_Test_Project.MyAppCanvasTest.DrawTo_ShouldUpdateCursorPosition_WhenCoordinatesAreValid
+  id: DrawTo_ShouldUpdateCursorPosition_WhenCoordinatesAreValid
+  parent: ASE_Test_Project.MyAppCanvasTest
+  langs:
+  - csharp
+  - vb
+  name: DrawTo_ShouldUpdateCursorPosition_WhenCoordinatesAreValid()
+  nameWithType: MyAppCanvasTest.DrawTo_ShouldUpdateCursorPosition_WhenCoordinatesAreValid()
+  fullName: ASE_Test_Project.MyAppCanvasTest.DrawTo_ShouldUpdateCursorPosition_WhenCoordinatesAreValid()
+  type: Method
+  source:
+    remote:
+      path: ASE_Dinesh_Bahadur_Ayer_77356697/ASE_Test_Project/MyAppCanvasTest.cs
+      branch: main
+      repo: https://github.com/ASE-Classroom/ase-demo-assignment-dinesh69012.git
+    id: DrawTo_ShouldUpdateCursorPosition_WhenCoordinatesAreValid
+    path: ASE_Test_Project/MyAppCanvasTest.cs
+    startLine: 279
+  assemblies:
+  - ASE_Test_Project
+  namespace: ASE_Test_Project
+  summary: >-
+    Tests whether <xref href="ASE_Dinesh_Bahadur_Ayer_77356697.MyApp.MyAppCanvas.DrawTo(System.Int32%2cSystem.Int32)" data-throw-if-not-resolved="false"></xref> updates the cursor position
+
+    when valid coordinates are provided, and a <xref href="System.Drawing.Graphics" data-throw-if-not-resolved="false"></xref> context exists.
+  example: []
+  syntax:
+    content: >-
+      [TestMethod]
+
+      public void DrawTo_ShouldUpdateCursorPosition_WhenCoordinatesAreValid()
+    content.vb: >-
+      <TestMethod>
+
+      Public Sub DrawTo_ShouldUpdateCursorPosition_WhenCoordinatesAreValid()
+  overload: ASE_Test_Project.MyAppCanvasTest.DrawTo_ShouldUpdateCursorPosition_WhenCoordinatesAreValid*
+  attributes:
+  - type: Microsoft.VisualStudio.TestTools.UnitTesting.TestMethodAttribute
+    ctor: Microsoft.VisualStudio.TestTools.UnitTesting.TestMethodAttribute.#ctor
+    arguments: []
+- uid: ASE_Test_Project.MyAppCanvasTest.MoveTo_ShouldThrowException_WhenCoordinatesAreOutOfBounds
+  commentId: M:ASE_Test_Project.MyAppCanvasTest.MoveTo_ShouldThrowException_WhenCoordinatesAreOutOfBounds
+  id: MoveTo_ShouldThrowException_WhenCoordinatesAreOutOfBounds
+  parent: ASE_Test_Project.MyAppCanvasTest
+  langs:
+  - csharp
+  - vb
+  name: MoveTo_ShouldThrowException_WhenCoordinatesAreOutOfBounds()
+  nameWithType: MyAppCanvasTest.MoveTo_ShouldThrowException_WhenCoordinatesAreOutOfBounds()
+  fullName: ASE_Test_Project.MyAppCanvasTest.MoveTo_ShouldThrowException_WhenCoordinatesAreOutOfBounds()
+  type: Method
+  source:
+    remote:
+      path: ASE_Dinesh_Bahadur_Ayer_77356697/ASE_Test_Project/MyAppCanvasTest.cs
+      branch: main
+      repo: https://github.com/ASE-Classroom/ase-demo-assignment-dinesh69012.git
+    id: MoveTo_ShouldThrowException_WhenCoordinatesAreOutOfBounds
+    path: ASE_Test_Project/MyAppCanvasTest.cs
+    startLine: 300
+  assemblies:
+  - ASE_Test_Project
+  namespace: ASE_Test_Project
+  summary: >-
+    Tests whether <xref href="ASE_Dinesh_Bahadur_Ayer_77356697.MyApp.MyAppCanvas.MoveTo(System.Int32%2cSystem.Int32)" data-throw-if-not-resolved="false"></xref> throws a <xref href="BOOSE.CanvasException" data-throw-if-not-resolved="false"></xref>
+
+    when attempting to move the pen outside the canvas boundaries.
+  example: []
+  syntax:
+    content: >-
+      [TestMethod]
+
+      [ExpectedException(typeof(CanvasException))]
+
+      public void MoveTo_ShouldThrowException_WhenCoordinatesAreOutOfBounds()
+    content.vb: >-
+      <TestMethod>
+
+      <ExpectedException(GetType(CanvasException))>
+
+      Public Sub MoveTo_ShouldThrowException_WhenCoordinatesAreOutOfBounds()
+  overload: ASE_Test_Project.MyAppCanvasTest.MoveTo_ShouldThrowException_WhenCoordinatesAreOutOfBounds*
+  attributes:
+  - type: Microsoft.VisualStudio.TestTools.UnitTesting.TestMethodAttribute
+    ctor: Microsoft.VisualStudio.TestTools.UnitTesting.TestMethodAttribute.#ctor
+    arguments: []
+  - type: Microsoft.VisualStudio.TestTools.UnitTesting.ExpectedExceptionAttribute
+    ctor: Microsoft.VisualStudio.TestTools.UnitTesting.ExpectedExceptionAttribute.#ctor(System.Type)
+    arguments:
+    - type: System.Type
+      value: BOOSE.CanvasException
+- uid: ASE_Test_Project.MyAppCanvasTest.MoveTo_ShouldUpdateCursorPosition_WhenCoordinatesAreValid
+  commentId: M:ASE_Test_Project.MyAppCanvasTest.MoveTo_ShouldUpdateCursorPosition_WhenCoordinatesAreValid
+  id: MoveTo_ShouldUpdateCursorPosition_WhenCoordinatesAreValid
+  parent: ASE_Test_Project.MyAppCanvasTest
+  langs:
+  - csharp
+  - vb
+  name: MoveTo_ShouldUpdateCursorPosition_WhenCoordinatesAreValid()
+  nameWithType: MyAppCanvasTest.MoveTo_ShouldUpdateCursorPosition_WhenCoordinatesAreValid()
+  fullName: ASE_Test_Project.MyAppCanvasTest.MoveTo_ShouldUpdateCursorPosition_WhenCoordinatesAreValid()
+  type: Method
+  source:
+    remote:
+      path: ASE_Dinesh_Bahadur_Ayer_77356697/ASE_Test_Project/MyAppCanvasTest.cs
+      branch: main
+      repo: https://github.com/ASE-Classroom/ase-demo-assignment-dinesh69012.git
+    id: MoveTo_ShouldUpdateCursorPosition_WhenCoordinatesAreValid
+    path: ASE_Test_Project/MyAppCanvasTest.cs
+    startLine: 317
+  assemblies:
+  - ASE_Test_Project
+  namespace: ASE_Test_Project
+  summary: >-
+    Tests whether <xref href="ASE_Dinesh_Bahadur_Ayer_77356697.MyApp.MyAppCanvas.MoveTo(System.Int32%2cSystem.Int32)" data-throw-if-not-resolved="false"></xref> correctly updates the pen's position
+
+    when the coordinates are valid and a <xref href="System.Drawing.Graphics" data-throw-if-not-resolved="false"></xref> context exists.
+  example: []
+  syntax:
+    content: >-
+      [TestMethod]
+
+      public void MoveTo_ShouldUpdateCursorPosition_WhenCoordinatesAreValid()
+    content.vb: >-
+      <TestMethod>
+
+      Public Sub MoveTo_ShouldUpdateCursorPosition_WhenCoordinatesAreValid()
+  overload: ASE_Test_Project.MyAppCanvasTest.MoveTo_ShouldUpdateCursorPosition_WhenCoordinatesAreValid*
+  attributes:
+  - type: Microsoft.VisualStudio.TestTools.UnitTesting.TestMethodAttribute
+    ctor: Microsoft.VisualStudio.TestTools.UnitTesting.TestMethodAttribute.#ctor
+    arguments: []
+- uid: ASE_Test_Project.MyAppCanvasTest.Rect_ShouldThrowException_WhenDimensionsAreInvalid
+  commentId: M:ASE_Test_Project.MyAppCanvasTest.Rect_ShouldThrowException_WhenDimensionsAreInvalid
+  id: Rect_ShouldThrowException_WhenDimensionsAreInvalid
+  parent: ASE_Test_Project.MyAppCanvasTest
+  langs:
+  - csharp
+  - vb
+  name: Rect_ShouldThrowException_WhenDimensionsAreInvalid()
+  nameWithType: MyAppCanvasTest.Rect_ShouldThrowException_WhenDimensionsAreInvalid()
+  fullName: ASE_Test_Project.MyAppCanvasTest.Rect_ShouldThrowException_WhenDimensionsAreInvalid()
+  type: Method
+  source:
+    remote:
+      path: ASE_Dinesh_Bahadur_Ayer_77356697/ASE_Test_Project/MyAppCanvasTest.cs
+      branch: main
+      repo: https://github.com/ASE-Classroom/ase-demo-assignment-dinesh69012.git
+    id: Rect_ShouldThrowException_WhenDimensionsAreInvalid
+    path: ASE_Test_Project/MyAppCanvasTest.cs
+    startLine: 337
+  assemblies:
+  - ASE_Test_Project
+  namespace: ASE_Test_Project
+  summary: >-
+    Tests whether <xref href="ASE_Dinesh_Bahadur_Ayer_77356697.MyApp.MyAppCanvas.Rect(System.Int32%2cSystem.Int32%2cSystem.Boolean)" data-throw-if-not-resolved="false"></xref> throws a <xref href="BOOSE.CanvasException" data-throw-if-not-resolved="false"></xref>
+
+    when invalid (negative) dimensions are provided.
+  example: []
+  syntax:
+    content: >-
+      [TestMethod]
+
+      [ExpectedException(typeof(CanvasException))]
+
+      public void Rect_ShouldThrowException_WhenDimensionsAreInvalid()
+    content.vb: >-
+      <TestMethod>
+
+      <ExpectedException(GetType(CanvasException))>
+
+      Public Sub Rect_ShouldThrowException_WhenDimensionsAreInvalid()
+  overload: ASE_Test_Project.MyAppCanvasTest.Rect_ShouldThrowException_WhenDimensionsAreInvalid*
+  attributes:
+  - type: Microsoft.VisualStudio.TestTools.UnitTesting.TestMethodAttribute
+    ctor: Microsoft.VisualStudio.TestTools.UnitTesting.TestMethodAttribute.#ctor
+    arguments: []
+  - type: Microsoft.VisualStudio.TestTools.UnitTesting.ExpectedExceptionAttribute
+    ctor: Microsoft.VisualStudio.TestTools.UnitTesting.ExpectedExceptionAttribute.#ctor(System.Type)
+    arguments:
+    - type: System.Type
+      value: BOOSE.CanvasException
+- uid: ASE_Test_Project.MyAppCanvasTest.Rect_ShouldDrawFilledRectangle_WhenValid
+  commentId: M:ASE_Test_Project.MyAppCanvasTest.Rect_ShouldDrawFilledRectangle_WhenValid
+  id: Rect_ShouldDrawFilledRectangle_WhenValid
+  parent: ASE_Test_Project.MyAppCanvasTest
+  langs:
+  - csharp
+  - vb
+  name: Rect_ShouldDrawFilledRectangle_WhenValid()
+  nameWithType: MyAppCanvasTest.Rect_ShouldDrawFilledRectangle_WhenValid()
+  fullName: ASE_Test_Project.MyAppCanvasTest.Rect_ShouldDrawFilledRectangle_WhenValid()
+  type: Method
+  source:
+    remote:
+      path: ASE_Dinesh_Bahadur_Ayer_77356697/ASE_Test_Project/MyAppCanvasTest.cs
+      branch: main
+      repo: https://github.com/ASE-Classroom/ase-demo-assignment-dinesh69012.git
+    id: Rect_ShouldDrawFilledRectangle_WhenValid
+    path: ASE_Test_Project/MyAppCanvasTest.cs
+    startLine: 354
+  assemblies:
+  - ASE_Test_Project
+  namespace: ASE_Test_Project
+  summary: >-
+    Tests drawing a filled rectangle with <xref href="ASE_Dinesh_Bahadur_Ayer_77356697.MyApp.MyAppCanvas.Rect(System.Int32%2cSystem.Int32%2cSystem.Boolean)" data-throw-if-not-resolved="false"></xref>
+
+    under valid conditions, ensuring no exceptions and verifying expected behavior.
+  example: []
+  syntax:
+    content: >-
+      [TestMethod]
+
+      public void Rect_ShouldDrawFilledRectangle_WhenValid()
+    content.vb: >-
+      <TestMethod>
+
+      Public Sub Rect_ShouldDrawFilledRectangle_WhenValid()
+  overload: ASE_Test_Project.MyAppCanvasTest.Rect_ShouldDrawFilledRectangle_WhenValid*
+  attributes:
+  - type: Microsoft.VisualStudio.TestTools.UnitTesting.TestMethodAttribute
+    ctor: Microsoft.VisualStudio.TestTools.UnitTesting.TestMethodAttribute.#ctor
+    arguments: []
+- uid: ASE_Test_Project.MyAppCanvasTest.SetColour_ShouldThrowException_WhenRGBValuesAreInvalid
+  commentId: M:ASE_Test_Project.MyAppCanvasTest.SetColour_ShouldThrowException_WhenRGBValuesAreInvalid
+  id: SetColour_ShouldThrowException_WhenRGBValuesAreInvalid
+  parent: ASE_Test_Project.MyAppCanvasTest
+  langs:
+  - csharp
+  - vb
+  name: SetColour_ShouldThrowException_WhenRGBValuesAreInvalid()
+  nameWithType: MyAppCanvasTest.SetColour_ShouldThrowException_WhenRGBValuesAreInvalid()
+  fullName: ASE_Test_Project.MyAppCanvasTest.SetColour_ShouldThrowException_WhenRGBValuesAreInvalid()
+  type: Method
+  source:
+    remote:
+      path: ASE_Dinesh_Bahadur_Ayer_77356697/ASE_Test_Project/MyAppCanvasTest.cs
+      branch: main
+      repo: https://github.com/ASE-Classroom/ase-demo-assignment-dinesh69012.git
+    id: SetColour_ShouldThrowException_WhenRGBValuesAreInvalid
+    path: ASE_Test_Project/MyAppCanvasTest.cs
+    startLine: 374
+  assemblies:
+  - ASE_Test_Project
+  namespace: ASE_Test_Project
+  summary: >-
+    Tests whether <xref href="ASE_Dinesh_Bahadur_Ayer_77356697.MyApp.MyAppCanvas.SetColour(System.Int32%2cSystem.Int32%2cSystem.Int32)" data-throw-if-not-resolved="false"></xref> throws a <xref href="BOOSE.CanvasException" data-throw-if-not-resolved="false"></xref>
+
+    when invalid (out-of-range) RGB values are provided.
+  example: []
+  syntax:
+    content: >-
+      [TestMethod]
+
+      [ExpectedException(typeof(CanvasException))]
+
+      public void SetColour_ShouldThrowException_WhenRGBValuesAreInvalid()
+    content.vb: >-
+      <TestMethod>
+
+      <ExpectedException(GetType(CanvasException))>
+
+      Public Sub SetColour_ShouldThrowException_WhenRGBValuesAreInvalid()
+  overload: ASE_Test_Project.MyAppCanvasTest.SetColour_ShouldThrowException_WhenRGBValuesAreInvalid*
+  attributes:
+  - type: Microsoft.VisualStudio.TestTools.UnitTesting.TestMethodAttribute
+    ctor: Microsoft.VisualStudio.TestTools.UnitTesting.TestMethodAttribute.#ctor
+    arguments: []
+  - type: Microsoft.VisualStudio.TestTools.UnitTesting.ExpectedExceptionAttribute
+    ctor: Microsoft.VisualStudio.TestTools.UnitTesting.ExpectedExceptionAttribute.#ctor(System.Type)
+    arguments:
+    - type: System.Type
+      value: BOOSE.CanvasException
+references:
+- uid: ASE_Dinesh_Bahadur_Ayer_77356697.MyApp.MyAppCanvas
+  commentId: T:ASE_Dinesh_Bahadur_Ayer_77356697.MyApp.MyAppCanvas
+  parent: ASE_Dinesh_Bahadur_Ayer_77356697.MyApp
+  href: ASE_Dinesh_Bahadur_Ayer_77356697.MyApp.MyAppCanvas.html
+  name: MyAppCanvas
+  nameWithType: MyAppCanvas
+  fullName: ASE_Dinesh_Bahadur_Ayer_77356697.MyApp.MyAppCanvas
+- uid: ASE_Test_Project
+  commentId: N:ASE_Test_Project
+  href: ASE_Test_Project.html
+  name: ASE_Test_Project
+  nameWithType: ASE_Test_Project
+  fullName: ASE_Test_Project
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object
+  name: object
+  nameWithType: object
+  fullName: object
+  nameWithType.vb: Object
+  fullName.vb: Object
+  name.vb: Object
+- uid: System.Object.Equals(System.Object)
+  commentId: M:System.Object.Equals(System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  name: Equals(object)
+  nameWithType: object.Equals(object)
+  fullName: object.Equals(object)
+  nameWithType.vb: Object.Equals(Object)
+  fullName.vb: Object.Equals(Object)
+  name.vb: Equals(Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.Equals(System.Object,System.Object)
+  commentId: M:System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  name: Equals(object, object)
+  nameWithType: object.Equals(object, object)
+  fullName: object.Equals(object, object)
+  nameWithType.vb: Object.Equals(Object, Object)
+  fullName.vb: Object.Equals(Object, Object)
+  name.vb: Equals(Object, Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.GetHashCode
+  commentId: M:System.Object.GetHashCode
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  name: GetHashCode()
+  nameWithType: object.GetHashCode()
+  fullName: object.GetHashCode()
+  nameWithType.vb: Object.GetHashCode()
+  fullName.vb: Object.GetHashCode()
+  spec.csharp:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  - name: (
+  - name: )
+- uid: System.Object.GetType
+  commentId: M:System.Object.GetType
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  name: GetType()
+  nameWithType: object.GetType()
+  fullName: object.GetType()
+  nameWithType.vb: Object.GetType()
+  fullName.vb: Object.GetType()
+  spec.csharp:
+  - uid: System.Object.GetType
+    name: GetType
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.GetType
+    name: GetType
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  - name: (
+  - name: )
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  name: ReferenceEquals(object, object)
+  nameWithType: object.ReferenceEquals(object, object)
+  fullName: object.ReferenceEquals(object, object)
+  nameWithType.vb: Object.ReferenceEquals(Object, Object)
+  fullName.vb: Object.ReferenceEquals(Object, Object)
+  name.vb: ReferenceEquals(Object, Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.ToString
+  commentId: M:System.Object.ToString
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  name: ToString()
+  nameWithType: object.ToString()
+  fullName: object.ToString()
+  nameWithType.vb: Object.ToString()
+  fullName.vb: Object.ToString()
+  spec.csharp:
+  - uid: System.Object.ToString
+    name: ToString
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.ToString
+    name: ToString
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  - name: (
+  - name: )
+- uid: ASE_Dinesh_Bahadur_Ayer_77356697.MyApp
+  commentId: N:ASE_Dinesh_Bahadur_Ayer_77356697.MyApp
+  href: ASE_Dinesh_Bahadur_Ayer_77356697.html
+  name: ASE_Dinesh_Bahadur_Ayer_77356697.MyApp
+  nameWithType: ASE_Dinesh_Bahadur_Ayer_77356697.MyApp
+  fullName: ASE_Dinesh_Bahadur_Ayer_77356697.MyApp
+  spec.csharp:
+  - uid: ASE_Dinesh_Bahadur_Ayer_77356697
+    name: ASE_Dinesh_Bahadur_Ayer_77356697
+    href: ASE_Dinesh_Bahadur_Ayer_77356697.html
+  - name: .
+  - uid: ASE_Dinesh_Bahadur_Ayer_77356697.MyApp
+    name: MyApp
+    href: ASE_Dinesh_Bahadur_Ayer_77356697.MyApp.html
+  spec.vb:
+  - uid: ASE_Dinesh_Bahadur_Ayer_77356697
+    name: ASE_Dinesh_Bahadur_Ayer_77356697
+    href: ASE_Dinesh_Bahadur_Ayer_77356697.html
+  - name: .
+  - uid: ASE_Dinesh_Bahadur_Ayer_77356697.MyApp
+    name: MyApp
+    href: ASE_Dinesh_Bahadur_Ayer_77356697.MyApp.html
+- uid: System
+  commentId: N:System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: ASE_Test_Project.MyAppCanvasTest.SetUp*
+  commentId: Overload:ASE_Test_Project.MyAppCanvasTest.SetUp
+  href: ASE_Test_Project.MyAppCanvasTest.html#ASE_Test_Project_MyAppCanvasTest_SetUp
+  name: SetUp
+  nameWithType: MyAppCanvasTest.SetUp
+  fullName: ASE_Test_Project.MyAppCanvasTest.SetUp
+- uid: ASE_Test_Project.MyAppCanvasTest.TestDefaultConstructor*
+  commentId: Overload:ASE_Test_Project.MyAppCanvasTest.TestDefaultConstructor
+  href: ASE_Test_Project.MyAppCanvasTest.html#ASE_Test_Project_MyAppCanvasTest_TestDefaultConstructor
+  name: TestDefaultConstructor
+  nameWithType: MyAppCanvasTest.TestDefaultConstructor
+  fullName: ASE_Test_Project.MyAppCanvasTest.TestDefaultConstructor
+- uid: ASE_Dinesh_Bahadur_Ayer_77356697.MyApp.MyAppCanvas.Set(System.Int32,System.Int32)
+  commentId: M:ASE_Dinesh_Bahadur_Ayer_77356697.MyApp.MyAppCanvas.Set(System.Int32,System.Int32)
+  isExternal: true
+  href: ASE_Dinesh_Bahadur_Ayer_77356697.MyApp.MyAppCanvas.html#ASE_Dinesh_Bahadur_Ayer_77356697_MyApp_MyAppCanvas_Set_System_Int32_System_Int32_
+  name: Set(int, int)
+  nameWithType: MyAppCanvas.Set(int, int)
+  fullName: ASE_Dinesh_Bahadur_Ayer_77356697.MyApp.MyAppCanvas.Set(int, int)
+  nameWithType.vb: MyAppCanvas.Set(Integer, Integer)
+  fullName.vb: ASE_Dinesh_Bahadur_Ayer_77356697.MyApp.MyAppCanvas.Set(Integer, Integer)
+  name.vb: Set(Integer, Integer)
+  spec.csharp:
+  - uid: ASE_Dinesh_Bahadur_Ayer_77356697.MyApp.MyAppCanvas.Set(System.Int32,System.Int32)
+    name: Set
+    href: ASE_Dinesh_Bahadur_Ayer_77356697.MyApp.MyAppCanvas.html#ASE_Dinesh_Bahadur_Ayer_77356697_MyApp_MyAppCanvas_Set_System_Int32_System_Int32_
+  - name: (
+  - uid: System.Int32
+    name: int
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.int32
+  - name: ','
+  - name: " "
+  - uid: System.Int32
+    name: int
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.int32
+  - name: )
+  spec.vb:
+  - uid: ASE_Dinesh_Bahadur_Ayer_77356697.MyApp.MyAppCanvas.Set(System.Int32,System.Int32)
+    name: Set
+    href: ASE_Dinesh_Bahadur_Ayer_77356697.MyApp.MyAppCanvas.html#ASE_Dinesh_Bahadur_Ayer_77356697_MyApp_MyAppCanvas_Set_System_Int32_System_Int32_
+  - name: (
+  - uid: System.Int32
+    name: Integer
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.int32
+  - name: ','
+  - name: " "
+  - uid: System.Int32
+    name: Integer
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.int32
+  - name: )
+- uid: ASE_Dinesh_Bahadur_Ayer_77356697.MyApp.MyAppCanvas.XSIDE
+  commentId: P:ASE_Dinesh_Bahadur_Ayer_77356697.MyApp.MyAppCanvas.XSIDE
+  href: ASE_Dinesh_Bahadur_Ayer_77356697.MyApp.MyAppCanvas.html#ASE_Dinesh_Bahadur_Ayer_77356697_MyApp_MyAppCanvas_XSIDE
+  name: XSIDE
+  nameWithType: MyAppCanvas.XSIDE
+  fullName: ASE_Dinesh_Bahadur_Ayer_77356697.MyApp.MyAppCanvas.XSIDE
+- uid: ASE_Dinesh_Bahadur_Ayer_77356697.MyApp.MyAppCanvas.YSIDE
+  commentId: P:ASE_Dinesh_Bahadur_Ayer_77356697.MyApp.MyAppCanvas.YSIDE
+  href: ASE_Dinesh_Bahadur_Ayer_77356697.MyApp.MyAppCanvas.html#ASE_Dinesh_Bahadur_Ayer_77356697_MyApp_MyAppCanvas_YSIDE
+  name: YSIDE
+  nameWithType: MyAppCanvas.YSIDE
+  fullName: ASE_Dinesh_Bahadur_Ayer_77356697.MyApp.MyAppCanvas.YSIDE
+- uid: ASE_Test_Project.MyAppCanvasTest.TestCustomCanvasSizeInitialization*
+  commentId: Overload:ASE_Test_Project.MyAppCanvasTest.TestCustomCanvasSizeInitialization
+  href: ASE_Test_Project.MyAppCanvasTest.html#ASE_Test_Project_MyAppCanvasTest_TestCustomCanvasSizeInitialization
+  name: TestCustomCanvasSizeInitialization
+  nameWithType: MyAppCanvasTest.TestCustomCanvasSizeInitialization
+  fullName: ASE_Test_Project.MyAppCanvasTest.TestCustomCanvasSizeInitialization
+- uid: BOOSE.CanvasException
+  commentId: T:BOOSE.CanvasException
+  parent: BOOSE
+  isExternal: true
+  name: CanvasException
+  nameWithType: CanvasException
+  fullName: BOOSE.CanvasException
+- uid: ASE_Test_Project.MyAppCanvasTest.TestInvalidCanvasSize_ShouldThrowCanvasException*
+  commentId: Overload:ASE_Test_Project.MyAppCanvasTest.TestInvalidCanvasSize_ShouldThrowCanvasException
+  href: ASE_Test_Project.MyAppCanvasTest.html#ASE_Test_Project_MyAppCanvasTest_TestInvalidCanvasSize_ShouldThrowCanvasException
+  name: TestInvalidCanvasSize_ShouldThrowCanvasException
+  nameWithType: MyAppCanvasTest.TestInvalidCanvasSize_ShouldThrowCanvasException
+  fullName: ASE_Test_Project.MyAppCanvasTest.TestInvalidCanvasSize_ShouldThrowCanvasException
+- uid: BOOSE
+  commentId: N:BOOSE
+  isExternal: true
+  name: BOOSE
+  nameWithType: BOOSE
+  fullName: BOOSE
+- uid: ASE_Dinesh_Bahadur_Ayer_77356697.MyApp.MyAppCanvas.PenSize
+  commentId: P:ASE_Dinesh_Bahadur_Ayer_77356697.MyApp.MyAppCanvas.PenSize
+  href: ASE_Dinesh_Bahadur_Ayer_77356697.MyApp.MyAppCanvas.html#ASE_Dinesh_Bahadur_Ayer_77356697_MyApp_MyAppCanvas_PenSize
+  name: PenSize
+  nameWithType: MyAppCanvas.PenSize
+  fullName: ASE_Dinesh_Bahadur_Ayer_77356697.MyApp.MyAppCanvas.PenSize
+- uid: ASE_Test_Project.MyAppCanvasTest.TestSetPenSizeValid*
+  commentId: Overload:ASE_Test_Project.MyAppCanvasTest.TestSetPenSizeValid
+  href: ASE_Test_Project.MyAppCanvasTest.html#ASE_Test_Project_MyAppCanvasTest_TestSetPenSizeValid
+  name: TestSetPenSizeValid
+  nameWithType: MyAppCanvasTest.TestSetPenSizeValid
+  fullName: ASE_Test_Project.MyAppCanvasTest.TestSetPenSizeValid
+- uid: ASE_Test_Project.MyAppCanvasTest.TestSetPenSizeInvalid*
+  commentId: Overload:ASE_Test_Project.MyAppCanvasTest.TestSetPenSizeInvalid
+  href: ASE_Test_Project.MyAppCanvasTest.html#ASE_Test_Project_MyAppCanvasTest_TestSetPenSizeInvalid
+  name: TestSetPenSizeInvalid
+  nameWithType: MyAppCanvasTest.TestSetPenSizeInvalid
+  fullName: ASE_Test_Project.MyAppCanvasTest.TestSetPenSizeInvalid
+- uid: ASE_Dinesh_Bahadur_Ayer_77356697.MyApp.MyAppCanvas.PenColour
+  commentId: P:ASE_Dinesh_Bahadur_Ayer_77356697.MyApp.MyAppCanvas.PenColour
+  href: ASE_Dinesh_Bahadur_Ayer_77356697.MyApp.MyAppCanvas.html#ASE_Dinesh_Bahadur_Ayer_77356697_MyApp_MyAppCanvas_PenColour
+  name: PenColour
+  nameWithType: MyAppCanvas.PenColour
+  fullName: ASE_Dinesh_Bahadur_Ayer_77356697.MyApp.MyAppCanvas.PenColour
+- uid: System.Drawing.Color
+  commentId: T:System.Drawing.Color
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.drawing.color
+  name: Color
+  nameWithType: Color
+  fullName: System.Drawing.Color
+- uid: ASE_Test_Project.MyAppCanvasTest.TestSetPenColorValid*
+  commentId: Overload:ASE_Test_Project.MyAppCanvasTest.TestSetPenColorValid
+  href: ASE_Test_Project.MyAppCanvasTest.html#ASE_Test_Project_MyAppCanvasTest_TestSetPenColorValid
+  name: TestSetPenColorValid
+  nameWithType: MyAppCanvasTest.TestSetPenColorValid
+  fullName: ASE_Test_Project.MyAppCanvasTest.TestSetPenColorValid
+- uid: ASE_Dinesh_Bahadur_Ayer_77356697.MyApp.MyAppCanvas.Xpos
+  commentId: P:ASE_Dinesh_Bahadur_Ayer_77356697.MyApp.MyAppCanvas.Xpos
+  href: ASE_Dinesh_Bahadur_Ayer_77356697.MyApp.MyAppCanvas.html#ASE_Dinesh_Bahadur_Ayer_77356697_MyApp_MyAppCanvas_Xpos
+  name: Xpos
+  nameWithType: MyAppCanvas.Xpos
+  fullName: ASE_Dinesh_Bahadur_Ayer_77356697.MyApp.MyAppCanvas.Xpos
+- uid: ASE_Dinesh_Bahadur_Ayer_77356697.MyApp.MyAppCanvas.Ypos
+  commentId: P:ASE_Dinesh_Bahadur_Ayer_77356697.MyApp.MyAppCanvas.Ypos
+  href: ASE_Dinesh_Bahadur_Ayer_77356697.MyApp.MyAppCanvas.html#ASE_Dinesh_Bahadur_Ayer_77356697_MyApp_MyAppCanvas_Ypos
+  name: Ypos
+  nameWithType: MyAppCanvas.Ypos
+  fullName: ASE_Dinesh_Bahadur_Ayer_77356697.MyApp.MyAppCanvas.Ypos
+- uid: ASE_Test_Project.MyAppCanvasTest.TestSetPenPositionValid*
+  commentId: Overload:ASE_Test_Project.MyAppCanvasTest.TestSetPenPositionValid
+  href: ASE_Test_Project.MyAppCanvasTest.html#ASE_Test_Project_MyAppCanvasTest_TestSetPenPositionValid
+  name: TestSetPenPositionValid
+  nameWithType: MyAppCanvasTest.TestSetPenPositionValid
+  fullName: ASE_Test_Project.MyAppCanvasTest.TestSetPenPositionValid
+- uid: ASE_Test_Project.MyAppCanvasTest.TestSetPenPositionInvalid*
+  commentId: Overload:ASE_Test_Project.MyAppCanvasTest.TestSetPenPositionInvalid
+  href: ASE_Test_Project.MyAppCanvasTest.html#ASE_Test_Project_MyAppCanvasTest_TestSetPenPositionInvalid
+  name: TestSetPenPositionInvalid
+  nameWithType: MyAppCanvasTest.TestSetPenPositionInvalid
+  fullName: ASE_Test_Project.MyAppCanvasTest.TestSetPenPositionInvalid
+- uid: ASE_Test_Project.MyAppCanvasTest.TestBoundaryPenPosition*
+  commentId: Overload:ASE_Test_Project.MyAppCanvasTest.TestBoundaryPenPosition
+  href: ASE_Test_Project.MyAppCanvasTest.html#ASE_Test_Project_MyAppCanvasTest_TestBoundaryPenPosition
+  name: TestBoundaryPenPosition
+  nameWithType: MyAppCanvasTest.TestBoundaryPenPosition
+  fullName: ASE_Test_Project.MyAppCanvasTest.TestBoundaryPenPosition
+- uid: ASE_Dinesh_Bahadur_Ayer_77356697.MyApp.MyAppCanvas.Circle(System.Int32,System.Boolean)
+  commentId: M:ASE_Dinesh_Bahadur_Ayer_77356697.MyApp.MyAppCanvas.Circle(System.Int32,System.Boolean)
+  isExternal: true
+  href: ASE_Dinesh_Bahadur_Ayer_77356697.MyApp.MyAppCanvas.html#ASE_Dinesh_Bahadur_Ayer_77356697_MyApp_MyAppCanvas_Circle_System_Int32_System_Boolean_
+  name: Circle(int, bool)
+  nameWithType: MyAppCanvas.Circle(int, bool)
+  fullName: ASE_Dinesh_Bahadur_Ayer_77356697.MyApp.MyAppCanvas.Circle(int, bool)
+  nameWithType.vb: MyAppCanvas.Circle(Integer, Boolean)
+  fullName.vb: ASE_Dinesh_Bahadur_Ayer_77356697.MyApp.MyAppCanvas.Circle(Integer, Boolean)
+  name.vb: Circle(Integer, Boolean)
+  spec.csharp:
+  - uid: ASE_Dinesh_Bahadur_Ayer_77356697.MyApp.MyAppCanvas.Circle(System.Int32,System.Boolean)
+    name: Circle
+    href: ASE_Dinesh_Bahadur_Ayer_77356697.MyApp.MyAppCanvas.html#ASE_Dinesh_Bahadur_Ayer_77356697_MyApp_MyAppCanvas_Circle_System_Int32_System_Boolean_
+  - name: (
+  - uid: System.Int32
+    name: int
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.int32
+  - name: ','
+  - name: " "
+  - uid: System.Boolean
+    name: bool
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.boolean
+  - name: )
+  spec.vb:
+  - uid: ASE_Dinesh_Bahadur_Ayer_77356697.MyApp.MyAppCanvas.Circle(System.Int32,System.Boolean)
+    name: Circle
+    href: ASE_Dinesh_Bahadur_Ayer_77356697.MyApp.MyAppCanvas.html#ASE_Dinesh_Bahadur_Ayer_77356697_MyApp_MyAppCanvas_Circle_System_Int32_System_Boolean_
+  - name: (
+  - uid: System.Int32
+    name: Integer
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.int32
+  - name: ','
+  - name: " "
+  - uid: System.Boolean
+    name: Boolean
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.boolean
+  - name: )
+- uid: ASE_Test_Project.MyAppCanvasTest.TestDrawCircleValid*
+  commentId: Overload:ASE_Test_Project.MyAppCanvasTest.TestDrawCircleValid
+  href: ASE_Test_Project.MyAppCanvasTest.html#ASE_Test_Project_MyAppCanvasTest_TestDrawCircleValid
+  name: TestDrawCircleValid
+  nameWithType: MyAppCanvasTest.TestDrawCircleValid
+  fullName: ASE_Test_Project.MyAppCanvasTest.TestDrawCircleValid
+- uid: ASE_Test_Project.MyAppCanvasTest.TestDrawCircleInvalidRadius*
+  commentId: Overload:ASE_Test_Project.MyAppCanvasTest.TestDrawCircleInvalidRadius
+  href: ASE_Test_Project.MyAppCanvasTest.html#ASE_Test_Project_MyAppCanvasTest_TestDrawCircleInvalidRadius
+  name: TestDrawCircleInvalidRadius
+  nameWithType: MyAppCanvasTest.TestDrawCircleInvalidRadius
+  fullName: ASE_Test_Project.MyAppCanvasTest.TestDrawCircleInvalidRadius
+- uid: ASE_Dinesh_Bahadur_Ayer_77356697.MyApp.MyAppCanvas.Filled
+  commentId: P:ASE_Dinesh_Bahadur_Ayer_77356697.MyApp.MyAppCanvas.Filled
+  href: ASE_Dinesh_Bahadur_Ayer_77356697.MyApp.MyAppCanvas.html#ASE_Dinesh_Bahadur_Ayer_77356697_MyApp_MyAppCanvas_Filled
+  name: Filled
+  nameWithType: MyAppCanvas.Filled
+  fullName: ASE_Dinesh_Bahadur_Ayer_77356697.MyApp.MyAppCanvas.Filled
+- uid: ASE_Test_Project.MyAppCanvasTest.TestToggleShapeFilling*
+  commentId: Overload:ASE_Test_Project.MyAppCanvasTest.TestToggleShapeFilling
+  href: ASE_Test_Project.MyAppCanvasTest.html#ASE_Test_Project_MyAppCanvasTest_TestToggleShapeFilling
+  name: TestToggleShapeFilling
+  nameWithType: MyAppCanvasTest.TestToggleShapeFilling
+  fullName: ASE_Test_Project.MyAppCanvasTest.TestToggleShapeFilling
+- uid: ASE_Test_Project.MyAppCanvasTest.TestExceedMaximumCanvasSize*
+  commentId: Overload:ASE_Test_Project.MyAppCanvasTest.TestExceedMaximumCanvasSize
+  href: ASE_Test_Project.MyAppCanvasTest.html#ASE_Test_Project_MyAppCanvasTest_TestExceedMaximumCanvasSize
+  name: TestExceedMaximumCanvasSize
+  nameWithType: MyAppCanvasTest.TestExceedMaximumCanvasSize
+  fullName: ASE_Test_Project.MyAppCanvasTest.TestExceedMaximumCanvasSize
+- uid: ASE_Dinesh_Bahadur_Ayer_77356697.MyApp.MyAppCanvas.Clear
+  commentId: M:ASE_Dinesh_Bahadur_Ayer_77356697.MyApp.MyAppCanvas.Clear
+  href: ASE_Dinesh_Bahadur_Ayer_77356697.MyApp.MyAppCanvas.html#ASE_Dinesh_Bahadur_Ayer_77356697_MyApp_MyAppCanvas_Clear
+  name: Clear()
+  nameWithType: MyAppCanvas.Clear()
+  fullName: ASE_Dinesh_Bahadur_Ayer_77356697.MyApp.MyAppCanvas.Clear()
+  spec.csharp:
+  - uid: ASE_Dinesh_Bahadur_Ayer_77356697.MyApp.MyAppCanvas.Clear
+    name: Clear
+    href: ASE_Dinesh_Bahadur_Ayer_77356697.MyApp.MyAppCanvas.html#ASE_Dinesh_Bahadur_Ayer_77356697_MyApp_MyAppCanvas_Clear
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: ASE_Dinesh_Bahadur_Ayer_77356697.MyApp.MyAppCanvas.Clear
+    name: Clear
+    href: ASE_Dinesh_Bahadur_Ayer_77356697.MyApp.MyAppCanvas.html#ASE_Dinesh_Bahadur_Ayer_77356697_MyApp_MyAppCanvas_Clear
+  - name: (
+  - name: )
+- uid: ASE_Test_Project.MyAppCanvasTest.TestResetCanvas*
+  commentId: Overload:ASE_Test_Project.MyAppCanvasTest.TestResetCanvas
+  href: ASE_Test_Project.MyAppCanvasTest.html#ASE_Test_Project_MyAppCanvasTest_TestResetCanvas
+  name: TestResetCanvas
+  nameWithType: MyAppCanvasTest.TestResetCanvas
+  fullName: ASE_Test_Project.MyAppCanvasTest.TestResetCanvas
+- uid: ASE_Test_Project.MyAppCanvasTest.TestCircleExceedsCanvas*
+  commentId: Overload:ASE_Test_Project.MyAppCanvasTest.TestCircleExceedsCanvas
+  href: ASE_Test_Project.MyAppCanvasTest.html#ASE_Test_Project_MyAppCanvasTest_TestCircleExceedsCanvas
+  name: TestCircleExceedsCanvas
+  nameWithType: MyAppCanvasTest.TestCircleExceedsCanvas
+  fullName: ASE_Test_Project.MyAppCanvasTest.TestCircleExceedsCanvas
+- uid: ASE_Dinesh_Bahadur_Ayer_77356697.MyApp.MyAppCanvas.SetCanvas(System.Drawing.Bitmap,System.Drawing.Graphics)
+  commentId: M:ASE_Dinesh_Bahadur_Ayer_77356697.MyApp.MyAppCanvas.SetCanvas(System.Drawing.Bitmap,System.Drawing.Graphics)
+  isExternal: true
+  href: ASE_Dinesh_Bahadur_Ayer_77356697.MyApp.MyAppCanvas.html#ASE_Dinesh_Bahadur_Ayer_77356697_MyApp_MyAppCanvas_SetCanvas_System_Drawing_Bitmap_System_Drawing_Graphics_
+  name: SetCanvas(Bitmap, Graphics)
+  nameWithType: MyAppCanvas.SetCanvas(Bitmap, Graphics)
+  fullName: ASE_Dinesh_Bahadur_Ayer_77356697.MyApp.MyAppCanvas.SetCanvas(System.Drawing.Bitmap, System.Drawing.Graphics)
+  spec.csharp:
+  - uid: ASE_Dinesh_Bahadur_Ayer_77356697.MyApp.MyAppCanvas.SetCanvas(System.Drawing.Bitmap,System.Drawing.Graphics)
+    name: SetCanvas
+    href: ASE_Dinesh_Bahadur_Ayer_77356697.MyApp.MyAppCanvas.html#ASE_Dinesh_Bahadur_Ayer_77356697_MyApp_MyAppCanvas_SetCanvas_System_Drawing_Bitmap_System_Drawing_Graphics_
+  - name: (
+  - uid: System.Drawing.Bitmap
+    name: Bitmap
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.drawing.bitmap
+  - name: ','
+  - name: " "
+  - uid: System.Drawing.Graphics
+    name: Graphics
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.drawing.graphics
+  - name: )
+  spec.vb:
+  - uid: ASE_Dinesh_Bahadur_Ayer_77356697.MyApp.MyAppCanvas.SetCanvas(System.Drawing.Bitmap,System.Drawing.Graphics)
+    name: SetCanvas
+    href: ASE_Dinesh_Bahadur_Ayer_77356697.MyApp.MyAppCanvas.html#ASE_Dinesh_Bahadur_Ayer_77356697_MyApp_MyAppCanvas_SetCanvas_System_Drawing_Bitmap_System_Drawing_Graphics_
+  - name: (
+  - uid: System.Drawing.Bitmap
+    name: Bitmap
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.drawing.bitmap
+  - name: ','
+  - name: " "
+  - uid: System.Drawing.Graphics
+    name: Graphics
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.drawing.graphics
+  - name: )
+- uid: System.Drawing.Bitmap
+  commentId: T:System.Drawing.Bitmap
+  parent: System.Drawing
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.drawing.bitmap
+  name: Bitmap
+  nameWithType: Bitmap
+  fullName: System.Drawing.Bitmap
+- uid: System.Drawing.Graphics
+  commentId: T:System.Drawing.Graphics
+  parent: System.Drawing
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.drawing.graphics
+  name: Graphics
+  nameWithType: Graphics
+  fullName: System.Drawing.Graphics
+- uid: ASE_Test_Project.MyAppCanvasTest.SetCanvas_ShouldInitialize_WhenBitmapAndGraphicsAreValid*
+  commentId: Overload:ASE_Test_Project.MyAppCanvasTest.SetCanvas_ShouldInitialize_WhenBitmapAndGraphicsAreValid
+  href: ASE_Test_Project.MyAppCanvasTest.html#ASE_Test_Project_MyAppCanvasTest_SetCanvas_ShouldInitialize_WhenBitmapAndGraphicsAreValid
+  name: SetCanvas_ShouldInitialize_WhenBitmapAndGraphicsAreValid
+  nameWithType: MyAppCanvasTest.SetCanvas_ShouldInitialize_WhenBitmapAndGraphicsAreValid
+  fullName: ASE_Test_Project.MyAppCanvasTest.SetCanvas_ShouldInitialize_WhenBitmapAndGraphicsAreValid
+- uid: System.Drawing
+  commentId: N:System.Drawing
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System.Drawing
+  nameWithType: System.Drawing
+  fullName: System.Drawing
+  spec.csharp:
+  - uid: System
+    name: System
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system
+  - name: .
+  - uid: System.Drawing
+    name: Drawing
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.drawing
+  spec.vb:
+  - uid: System
+    name: System
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system
+  - name: .
+  - uid: System.Drawing
+    name: Drawing
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.drawing
+- uid: ASE_Dinesh_Bahadur_Ayer_77356697.MyApp.MyAppCanvas.DrawTo(System.Int32,System.Int32)
+  commentId: M:ASE_Dinesh_Bahadur_Ayer_77356697.MyApp.MyAppCanvas.DrawTo(System.Int32,System.Int32)
+  isExternal: true
+  href: ASE_Dinesh_Bahadur_Ayer_77356697.MyApp.MyAppCanvas.html#ASE_Dinesh_Bahadur_Ayer_77356697_MyApp_MyAppCanvas_DrawTo_System_Int32_System_Int32_
+  name: DrawTo(int, int)
+  nameWithType: MyAppCanvas.DrawTo(int, int)
+  fullName: ASE_Dinesh_Bahadur_Ayer_77356697.MyApp.MyAppCanvas.DrawTo(int, int)
+  nameWithType.vb: MyAppCanvas.DrawTo(Integer, Integer)
+  fullName.vb: ASE_Dinesh_Bahadur_Ayer_77356697.MyApp.MyAppCanvas.DrawTo(Integer, Integer)
+  name.vb: DrawTo(Integer, Integer)
+  spec.csharp:
+  - uid: ASE_Dinesh_Bahadur_Ayer_77356697.MyApp.MyAppCanvas.DrawTo(System.Int32,System.Int32)
+    name: DrawTo
+    href: ASE_Dinesh_Bahadur_Ayer_77356697.MyApp.MyAppCanvas.html#ASE_Dinesh_Bahadur_Ayer_77356697_MyApp_MyAppCanvas_DrawTo_System_Int32_System_Int32_
+  - name: (
+  - uid: System.Int32
+    name: int
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.int32
+  - name: ','
+  - name: " "
+  - uid: System.Int32
+    name: int
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.int32
+  - name: )
+  spec.vb:
+  - uid: ASE_Dinesh_Bahadur_Ayer_77356697.MyApp.MyAppCanvas.DrawTo(System.Int32,System.Int32)
+    name: DrawTo
+    href: ASE_Dinesh_Bahadur_Ayer_77356697.MyApp.MyAppCanvas.html#ASE_Dinesh_Bahadur_Ayer_77356697_MyApp_MyAppCanvas_DrawTo_System_Int32_System_Int32_
+  - name: (
+  - uid: System.Int32
+    name: Integer
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.int32
+  - name: ','
+  - name: " "
+  - uid: System.Int32
+    name: Integer
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.int32
+  - name: )
+- uid: ASE_Test_Project.MyAppCanvasTest.DrawTo_ShouldThrowException_WhenGraphicsContextIsNull*
+  commentId: Overload:ASE_Test_Project.MyAppCanvasTest.DrawTo_ShouldThrowException_WhenGraphicsContextIsNull
+  href: ASE_Test_Project.MyAppCanvasTest.html#ASE_Test_Project_MyAppCanvasTest_DrawTo_ShouldThrowException_WhenGraphicsContextIsNull
+  name: DrawTo_ShouldThrowException_WhenGraphicsContextIsNull
+  nameWithType: MyAppCanvasTest.DrawTo_ShouldThrowException_WhenGraphicsContextIsNull
+  fullName: ASE_Test_Project.MyAppCanvasTest.DrawTo_ShouldThrowException_WhenGraphicsContextIsNull
+- uid: ASE_Test_Project.MyAppCanvasTest.DrawTo_ShouldThrowException_WhenCoordinatesAreOutOfBounds*
+  commentId: Overload:ASE_Test_Project.MyAppCanvasTest.DrawTo_ShouldThrowException_WhenCoordinatesAreOutOfBounds
+  href: ASE_Test_Project.MyAppCanvasTest.html#ASE_Test_Project_MyAppCanvasTest_DrawTo_ShouldThrowException_WhenCoordinatesAreOutOfBounds
+  name: DrawTo_ShouldThrowException_WhenCoordinatesAreOutOfBounds
+  nameWithType: MyAppCanvasTest.DrawTo_ShouldThrowException_WhenCoordinatesAreOutOfBounds
+  fullName: ASE_Test_Project.MyAppCanvasTest.DrawTo_ShouldThrowException_WhenCoordinatesAreOutOfBounds
+- uid: ASE_Test_Project.MyAppCanvasTest.DrawTo_ShouldUpdateCursorPosition_WhenCoordinatesAreValid*
+  commentId: Overload:ASE_Test_Project.MyAppCanvasTest.DrawTo_ShouldUpdateCursorPosition_WhenCoordinatesAreValid
+  href: ASE_Test_Project.MyAppCanvasTest.html#ASE_Test_Project_MyAppCanvasTest_DrawTo_ShouldUpdateCursorPosition_WhenCoordinatesAreValid
+  name: DrawTo_ShouldUpdateCursorPosition_WhenCoordinatesAreValid
+  nameWithType: MyAppCanvasTest.DrawTo_ShouldUpdateCursorPosition_WhenCoordinatesAreValid
+  fullName: ASE_Test_Project.MyAppCanvasTest.DrawTo_ShouldUpdateCursorPosition_WhenCoordinatesAreValid
+- uid: ASE_Dinesh_Bahadur_Ayer_77356697.MyApp.MyAppCanvas.MoveTo(System.Int32,System.Int32)
+  commentId: M:ASE_Dinesh_Bahadur_Ayer_77356697.MyApp.MyAppCanvas.MoveTo(System.Int32,System.Int32)
+  isExternal: true
+  href: ASE_Dinesh_Bahadur_Ayer_77356697.MyApp.MyAppCanvas.html#ASE_Dinesh_Bahadur_Ayer_77356697_MyApp_MyAppCanvas_MoveTo_System_Int32_System_Int32_
+  name: MoveTo(int, int)
+  nameWithType: MyAppCanvas.MoveTo(int, int)
+  fullName: ASE_Dinesh_Bahadur_Ayer_77356697.MyApp.MyAppCanvas.MoveTo(int, int)
+  nameWithType.vb: MyAppCanvas.MoveTo(Integer, Integer)
+  fullName.vb: ASE_Dinesh_Bahadur_Ayer_77356697.MyApp.MyAppCanvas.MoveTo(Integer, Integer)
+  name.vb: MoveTo(Integer, Integer)
+  spec.csharp:
+  - uid: ASE_Dinesh_Bahadur_Ayer_77356697.MyApp.MyAppCanvas.MoveTo(System.Int32,System.Int32)
+    name: MoveTo
+    href: ASE_Dinesh_Bahadur_Ayer_77356697.MyApp.MyAppCanvas.html#ASE_Dinesh_Bahadur_Ayer_77356697_MyApp_MyAppCanvas_MoveTo_System_Int32_System_Int32_
+  - name: (
+  - uid: System.Int32
+    name: int
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.int32
+  - name: ','
+  - name: " "
+  - uid: System.Int32
+    name: int
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.int32
+  - name: )
+  spec.vb:
+  - uid: ASE_Dinesh_Bahadur_Ayer_77356697.MyApp.MyAppCanvas.MoveTo(System.Int32,System.Int32)
+    name: MoveTo
+    href: ASE_Dinesh_Bahadur_Ayer_77356697.MyApp.MyAppCanvas.html#ASE_Dinesh_Bahadur_Ayer_77356697_MyApp_MyAppCanvas_MoveTo_System_Int32_System_Int32_
+  - name: (
+  - uid: System.Int32
+    name: Integer
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.int32
+  - name: ','
+  - name: " "
+  - uid: System.Int32
+    name: Integer
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.int32
+  - name: )
+- uid: ASE_Test_Project.MyAppCanvasTest.MoveTo_ShouldThrowException_WhenCoordinatesAreOutOfBounds*
+  commentId: Overload:ASE_Test_Project.MyAppCanvasTest.MoveTo_ShouldThrowException_WhenCoordinatesAreOutOfBounds
+  href: ASE_Test_Project.MyAppCanvasTest.html#ASE_Test_Project_MyAppCanvasTest_MoveTo_ShouldThrowException_WhenCoordinatesAreOutOfBounds
+  name: MoveTo_ShouldThrowException_WhenCoordinatesAreOutOfBounds
+  nameWithType: MyAppCanvasTest.MoveTo_ShouldThrowException_WhenCoordinatesAreOutOfBounds
+  fullName: ASE_Test_Project.MyAppCanvasTest.MoveTo_ShouldThrowException_WhenCoordinatesAreOutOfBounds
+- uid: ASE_Test_Project.MyAppCanvasTest.MoveTo_ShouldUpdateCursorPosition_WhenCoordinatesAreValid*
+  commentId: Overload:ASE_Test_Project.MyAppCanvasTest.MoveTo_ShouldUpdateCursorPosition_WhenCoordinatesAreValid
+  href: ASE_Test_Project.MyAppCanvasTest.html#ASE_Test_Project_MyAppCanvasTest_MoveTo_ShouldUpdateCursorPosition_WhenCoordinatesAreValid
+  name: MoveTo_ShouldUpdateCursorPosition_WhenCoordinatesAreValid
+  nameWithType: MyAppCanvasTest.MoveTo_ShouldUpdateCursorPosition_WhenCoordinatesAreValid
+  fullName: ASE_Test_Project.MyAppCanvasTest.MoveTo_ShouldUpdateCursorPosition_WhenCoordinatesAreValid
+- uid: ASE_Dinesh_Bahadur_Ayer_77356697.MyApp.MyAppCanvas.Rect(System.Int32,System.Int32,System.Boolean)
+  commentId: M:ASE_Dinesh_Bahadur_Ayer_77356697.MyApp.MyAppCanvas.Rect(System.Int32,System.Int32,System.Boolean)
+  isExternal: true
+  href: ASE_Dinesh_Bahadur_Ayer_77356697.MyApp.MyAppCanvas.html#ASE_Dinesh_Bahadur_Ayer_77356697_MyApp_MyAppCanvas_Rect_System_Int32_System_Int32_System_Boolean_
+  name: Rect(int, int, bool)
+  nameWithType: MyAppCanvas.Rect(int, int, bool)
+  fullName: ASE_Dinesh_Bahadur_Ayer_77356697.MyApp.MyAppCanvas.Rect(int, int, bool)
+  nameWithType.vb: MyAppCanvas.Rect(Integer, Integer, Boolean)
+  fullName.vb: ASE_Dinesh_Bahadur_Ayer_77356697.MyApp.MyAppCanvas.Rect(Integer, Integer, Boolean)
+  name.vb: Rect(Integer, Integer, Boolean)
+  spec.csharp:
+  - uid: ASE_Dinesh_Bahadur_Ayer_77356697.MyApp.MyAppCanvas.Rect(System.Int32,System.Int32,System.Boolean)
+    name: Rect
+    href: ASE_Dinesh_Bahadur_Ayer_77356697.MyApp.MyAppCanvas.html#ASE_Dinesh_Bahadur_Ayer_77356697_MyApp_MyAppCanvas_Rect_System_Int32_System_Int32_System_Boolean_
+  - name: (
+  - uid: System.Int32
+    name: int
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.int32
+  - name: ','
+  - name: " "
+  - uid: System.Int32
+    name: int
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.int32
+  - name: ','
+  - name: " "
+  - uid: System.Boolean
+    name: bool
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.boolean
+  - name: )
+  spec.vb:
+  - uid: ASE_Dinesh_Bahadur_Ayer_77356697.MyApp.MyAppCanvas.Rect(System.Int32,System.Int32,System.Boolean)
+    name: Rect
+    href: ASE_Dinesh_Bahadur_Ayer_77356697.MyApp.MyAppCanvas.html#ASE_Dinesh_Bahadur_Ayer_77356697_MyApp_MyAppCanvas_Rect_System_Int32_System_Int32_System_Boolean_
+  - name: (
+  - uid: System.Int32
+    name: Integer
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.int32
+  - name: ','
+  - name: " "
+  - uid: System.Int32
+    name: Integer
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.int32
+  - name: ','
+  - name: " "
+  - uid: System.Boolean
+    name: Boolean
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.boolean
+  - name: )
+- uid: ASE_Test_Project.MyAppCanvasTest.Rect_ShouldThrowException_WhenDimensionsAreInvalid*
+  commentId: Overload:ASE_Test_Project.MyAppCanvasTest.Rect_ShouldThrowException_WhenDimensionsAreInvalid
+  href: ASE_Test_Project.MyAppCanvasTest.html#ASE_Test_Project_MyAppCanvasTest_Rect_ShouldThrowException_WhenDimensionsAreInvalid
+  name: Rect_ShouldThrowException_WhenDimensionsAreInvalid
+  nameWithType: MyAppCanvasTest.Rect_ShouldThrowException_WhenDimensionsAreInvalid
+  fullName: ASE_Test_Project.MyAppCanvasTest.Rect_ShouldThrowException_WhenDimensionsAreInvalid
+- uid: ASE_Test_Project.MyAppCanvasTest.Rect_ShouldDrawFilledRectangle_WhenValid*
+  commentId: Overload:ASE_Test_Project.MyAppCanvasTest.Rect_ShouldDrawFilledRectangle_WhenValid
+  href: ASE_Test_Project.MyAppCanvasTest.html#ASE_Test_Project_MyAppCanvasTest_Rect_ShouldDrawFilledRectangle_WhenValid
+  name: Rect_ShouldDrawFilledRectangle_WhenValid
+  nameWithType: MyAppCanvasTest.Rect_ShouldDrawFilledRectangle_WhenValid
+  fullName: ASE_Test_Project.MyAppCanvasTest.Rect_ShouldDrawFilledRectangle_WhenValid
+- uid: ASE_Dinesh_Bahadur_Ayer_77356697.MyApp.MyAppCanvas.SetColour(System.Int32,System.Int32,System.Int32)
+  commentId: M:ASE_Dinesh_Bahadur_Ayer_77356697.MyApp.MyAppCanvas.SetColour(System.Int32,System.Int32,System.Int32)
+  isExternal: true
+  href: ASE_Dinesh_Bahadur_Ayer_77356697.MyApp.MyAppCanvas.html#ASE_Dinesh_Bahadur_Ayer_77356697_MyApp_MyAppCanvas_SetColour_System_Int32_System_Int32_System_Int32_
+  name: SetColour(int, int, int)
+  nameWithType: MyAppCanvas.SetColour(int, int, int)
+  fullName: ASE_Dinesh_Bahadur_Ayer_77356697.MyApp.MyAppCanvas.SetColour(int, int, int)
+  nameWithType.vb: MyAppCanvas.SetColour(Integer, Integer, Integer)
+  fullName.vb: ASE_Dinesh_Bahadur_Ayer_77356697.MyApp.MyAppCanvas.SetColour(Integer, Integer, Integer)
+  name.vb: SetColour(Integer, Integer, Integer)
+  spec.csharp:
+  - uid: ASE_Dinesh_Bahadur_Ayer_77356697.MyApp.MyAppCanvas.SetColour(System.Int32,System.Int32,System.Int32)
+    name: SetColour
+    href: ASE_Dinesh_Bahadur_Ayer_77356697.MyApp.MyAppCanvas.html#ASE_Dinesh_Bahadur_Ayer_77356697_MyApp_MyAppCanvas_SetColour_System_Int32_System_Int32_System_Int32_
+  - name: (
+  - uid: System.Int32
+    name: int
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.int32
+  - name: ','
+  - name: " "
+  - uid: System.Int32
+    name: int
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.int32
+  - name: ','
+  - name: " "
+  - uid: System.Int32
+    name: int
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.int32
+  - name: )
+  spec.vb:
+  - uid: ASE_Dinesh_Bahadur_Ayer_77356697.MyApp.MyAppCanvas.SetColour(System.Int32,System.Int32,System.Int32)
+    name: SetColour
+    href: ASE_Dinesh_Bahadur_Ayer_77356697.MyApp.MyAppCanvas.html#ASE_Dinesh_Bahadur_Ayer_77356697_MyApp_MyAppCanvas_SetColour_System_Int32_System_Int32_System_Int32_
+  - name: (
+  - uid: System.Int32
+    name: Integer
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.int32
+  - name: ','
+  - name: " "
+  - uid: System.Int32
+    name: Integer
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.int32
+  - name: ','
+  - name: " "
+  - uid: System.Int32
+    name: Integer
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.int32
+  - name: )
+- uid: ASE_Test_Project.MyAppCanvasTest.SetColour_ShouldThrowException_WhenRGBValuesAreInvalid*
+  commentId: Overload:ASE_Test_Project.MyAppCanvasTest.SetColour_ShouldThrowException_WhenRGBValuesAreInvalid
+  href: ASE_Test_Project.MyAppCanvasTest.html#ASE_Test_Project_MyAppCanvasTest_SetColour_ShouldThrowException_WhenRGBValuesAreInvalid
+  name: SetColour_ShouldThrowException_WhenRGBValuesAreInvalid
+  nameWithType: MyAppCanvasTest.SetColour_ShouldThrowException_WhenRGBValuesAreInvalid
+  fullName: ASE_Test_Project.MyAppCanvasTest.SetColour_ShouldThrowException_WhenRGBValuesAreInvalid

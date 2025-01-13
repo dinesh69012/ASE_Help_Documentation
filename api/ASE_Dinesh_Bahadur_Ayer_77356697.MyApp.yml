@@ -1,0 +1,95 @@
+### YamlMime:ManagedReference
+items:
+- uid: ASE_Dinesh_Bahadur_Ayer_77356697.MyApp
+  commentId: N:ASE_Dinesh_Bahadur_Ayer_77356697.MyApp
+  id: ASE_Dinesh_Bahadur_Ayer_77356697.MyApp
+  children:
+  - ASE_Dinesh_Bahadur_Ayer_77356697.MyApp.AppCommandFactory
+  - ASE_Dinesh_Bahadur_Ayer_77356697.MyApp.AppPraser
+  - ASE_Dinesh_Bahadur_Ayer_77356697.MyApp.GlobalCofig
+  - ASE_Dinesh_Bahadur_Ayer_77356697.MyApp.MyAppCanvas
+  - ASE_Dinesh_Bahadur_Ayer_77356697.MyApp.MyFill
+  - ASE_Dinesh_Bahadur_Ayer_77356697.MyApp.MyTriangle
+  - ASE_Dinesh_Bahadur_Ayer_77356697.MyApp.MyWriteTo
+  - ASE_Dinesh_Bahadur_Ayer_77356697.MyApp.PenSize
+  langs:
+  - csharp
+  - vb
+  name: ASE_Dinesh_Bahadur_Ayer_77356697.MyApp
+  nameWithType: ASE_Dinesh_Bahadur_Ayer_77356697.MyApp
+  fullName: ASE_Dinesh_Bahadur_Ayer_77356697.MyApp
+  type: Namespace
+  assemblies:
+  - ASE_Dinesh_Bahadur_Ayer_77356697
+references:
+- uid: ASE_Dinesh_Bahadur_Ayer_77356697.MyApp.AppCommandFactory
+  commentId: T:ASE_Dinesh_Bahadur_Ayer_77356697.MyApp.AppCommandFactory
+  href: ASE_Dinesh_Bahadur_Ayer_77356697.MyApp.AppCommandFactory.html
+  name: AppCommandFactory
+  nameWithType: AppCommandFactory
+  fullName: ASE_Dinesh_Bahadur_Ayer_77356697.MyApp.AppCommandFactory
+- uid: ASE_Dinesh_Bahadur_Ayer_77356697.MyApp.AppPraser
+  commentId: T:ASE_Dinesh_Bahadur_Ayer_77356697.MyApp.AppPraser
+  href: ASE_Dinesh_Bahadur_Ayer_77356697.MyApp.AppPraser.html
+  name: AppPraser
+  nameWithType: AppPraser
+  fullName: ASE_Dinesh_Bahadur_Ayer_77356697.MyApp.AppPraser
+- uid: ASE_Dinesh_Bahadur_Ayer_77356697.MyApp.GlobalCofig
+  commentId: T:ASE_Dinesh_Bahadur_Ayer_77356697.MyApp.GlobalCofig
+  href: ASE_Dinesh_Bahadur_Ayer_77356697.MyApp.GlobalCofig.html
+  name: GlobalCofig
+  nameWithType: GlobalCofig
+  fullName: ASE_Dinesh_Bahadur_Ayer_77356697.MyApp.GlobalCofig
+- uid: ASE_Dinesh_Bahadur_Ayer_77356697.MyApp.MyAppCanvas
+  commentId: T:ASE_Dinesh_Bahadur_Ayer_77356697.MyApp.MyAppCanvas
+  parent: ASE_Dinesh_Bahadur_Ayer_77356697.MyApp
+  href: ASE_Dinesh_Bahadur_Ayer_77356697.MyApp.MyAppCanvas.html
+  name: MyAppCanvas
+  nameWithType: MyAppCanvas
+  fullName: ASE_Dinesh_Bahadur_Ayer_77356697.MyApp.MyAppCanvas
+- uid: ASE_Dinesh_Bahadur_Ayer_77356697.MyApp.MyFill
+  commentId: T:ASE_Dinesh_Bahadur_Ayer_77356697.MyApp.MyFill
+  href: ASE_Dinesh_Bahadur_Ayer_77356697.MyApp.MyFill.html
+  name: MyFill
+  nameWithType: MyFill
+  fullName: ASE_Dinesh_Bahadur_Ayer_77356697.MyApp.MyFill
+- uid: ASE_Dinesh_Bahadur_Ayer_77356697.MyApp.MyTriangle
+  commentId: T:ASE_Dinesh_Bahadur_Ayer_77356697.MyApp.MyTriangle
+  href: ASE_Dinesh_Bahadur_Ayer_77356697.MyApp.MyTriangle.html
+  name: MyTriangle
+  nameWithType: MyTriangle
+  fullName: ASE_Dinesh_Bahadur_Ayer_77356697.MyApp.MyTriangle
+- uid: ASE_Dinesh_Bahadur_Ayer_77356697.MyApp.MyWriteTo
+  commentId: T:ASE_Dinesh_Bahadur_Ayer_77356697.MyApp.MyWriteTo
+  href: ASE_Dinesh_Bahadur_Ayer_77356697.MyApp.MyWriteTo.html
+  name: MyWriteTo
+  nameWithType: MyWriteTo
+  fullName: ASE_Dinesh_Bahadur_Ayer_77356697.MyApp.MyWriteTo
+- uid: ASE_Dinesh_Bahadur_Ayer_77356697.MyApp.PenSize
+  commentId: T:ASE_Dinesh_Bahadur_Ayer_77356697.MyApp.PenSize
+  href: ASE_Dinesh_Bahadur_Ayer_77356697.MyApp.PenSize.html
+  name: PenSize
+  nameWithType: PenSize
+  fullName: ASE_Dinesh_Bahadur_Ayer_77356697.MyApp.PenSize
+- uid: ASE_Dinesh_Bahadur_Ayer_77356697.MyApp
+  commentId: N:ASE_Dinesh_Bahadur_Ayer_77356697.MyApp
+  href: ASE_Dinesh_Bahadur_Ayer_77356697.html
+  name: ASE_Dinesh_Bahadur_Ayer_77356697.MyApp
+  nameWithType: ASE_Dinesh_Bahadur_Ayer_77356697.MyApp
+  fullName: ASE_Dinesh_Bahadur_Ayer_77356697.MyApp
+  spec.csharp:
+  - uid: ASE_Dinesh_Bahadur_Ayer_77356697
+    name: ASE_Dinesh_Bahadur_Ayer_77356697
+    href: ASE_Dinesh_Bahadur_Ayer_77356697.html
+  - name: .
+  - uid: ASE_Dinesh_Bahadur_Ayer_77356697.MyApp
+    name: MyApp
+    href: ASE_Dinesh_Bahadur_Ayer_77356697.MyApp.html
+  spec.vb:
+  - uid: ASE_Dinesh_Bahadur_Ayer_77356697
+    name: ASE_Dinesh_Bahadur_Ayer_77356697
+    href: ASE_Dinesh_Bahadur_Ayer_77356697.html
+  - name: .
+  - uid: ASE_Dinesh_Bahadur_Ayer_77356697.MyApp
+    name: MyApp
+    href: ASE_Dinesh_Bahadur_Ayer_77356697.MyApp.html
